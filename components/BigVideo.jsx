@@ -1,15 +1,15 @@
 import * as styleConstants from  '../constants/StyleConstants';
-export default () => {
-    return <div className="navbar">
+import { Parallax } from 'react-scroll-parallax';
+export default ({videoSrc,parralax}) => {
+    return <Parallax y={[0,50]}>
         <style jsx>{`
             .bigvid {
                 width:100%;
+                display:block;
             }
         `}</style>
-        <div>
-            <video autoPlay={true} muted={true} loop={true} className="bigvid">
-                <source src="/static/Blue Sky Video.mp4" type="video/mp4" />
-            </video>    
-        </div>
-    </div>
+        <video autoPlay={true} muted={true} loop={true} className="bigvid">
+            <source src={videoSrc} type="video/mp4" />
+        </video>
+    </Parallax>
 }

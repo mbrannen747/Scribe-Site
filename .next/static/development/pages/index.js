@@ -1,5 +1,94 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./components/About.jsx":
+/*!******************************!*\
+  !*** ./components/About.jsx ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants/StyleConstants */ "./constants/StyleConstants.js");
+/* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Section */ "./components/Section.jsx");
+/* harmony import */ var _Col__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Col */ "./components/Col.jsx");
+/* harmony import */ var _Row__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Row */ "./components/Row.jsx");
+var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\About.jsx";
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: "about-us",
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2304574083",
+    __self: this
+  }, "#about-us.jsx-2304574083{margin-bottom:300px;}.col-image.jsx-2304574083{width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcQWJvdXQuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1vQixBQUdvQyxBQUdULFdBQ2QsU0FIQSIsImZpbGUiOiJDOlxcVXNlcnNcXE1pY2hhZWwgQnJhbm5lblxcRGVza3RvcFxcU2NyaWJlLVNpdGVcXGNvbXBvbmVudHNcXEFib3V0LmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIHN0eWxlQ29uc3RhbnRzIGZyb20gICcuLi9jb25zdGFudHMvU3R5bGVDb25zdGFudHMnO1xyXG5pbXBvcnQgU2VjdGlvbiBmcm9tICcuL1NlY3Rpb24nO1xyXG5pbXBvcnQgQ29sIGZyb20gJy4vQ29sJ1xyXG5pbXBvcnQgUm93IGZyb20gJy4vUm93J1xyXG5leHBvcnQgZGVmYXVsdCAoKSA9PiB7XHJcbiAgICByZXR1cm4gPGRpdiBpZD1cImFib3V0LXVzXCI+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAjYWJvdXQtdXMge1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTozMDBweDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAuY29sLWltYWdlIHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPFNlY3Rpb24+XHJcbiAgICAgICAgICAgIDxoMT5BQk9VVCBVUzwvaDE+XHJcbiAgICAgICAgICAgIDxSb3c+XHJcbiAgICAgICAgICAgICAgICA8Q29sIGZpcnN0PXt0cnVlfT5cclxuICAgICAgICAgICAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgVGhlIFNjcmliZSBEYXRhbG9nZ2VyIGlzIGFuIGVhc3kgdG8gdXNlLCB1bml2ZXJzYWwgbG9nZ2VyIGRlc2lnbmVkIGZvciBzY2llbnRpZmljIGFuZCBpbmR1c3RyaWFsIG1hcmtldHMsIG9mZmVycyByZWFsLXRpbWUgZGF0YSBkaXNwbGF5cywgd2lyZWxlc3MgY29ubmVjdGl2aXR5LCBjbG91ZCBkYXRhIHN0b3JhZ2UsIFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbmQgYmlnIGRhdGEgYXBwbGljYXRpb25zXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIEhpZ2hseSBhZGFwdGFibGUgdG8gbWVldCBhbnkgbWVhc3VyZW1lbnQgbmVlZCBpbmNsdWRpbmcgc2NpZW50aWZpYywgaW5kdXN0cmlhbCBvciBtaWxpdGFyeSBhcHBsaWNhdGlvbnNcclxuICAgICAgICAgICAgICAgICAgICAgICAgTWVhc3VyZW1lbnQgcHJvdG9jb2xzIGluY2x1ZGUgYnV0IG5vdCBsaW1pdGVkIHRvOiBhbmFsb2csIHB1bHNlLCBicmlkZ2UsIFNESS0xMiwgYW5kIHNlcmlhbCBwcm90b2NvbHNcclxuICAgICAgICAgICAgICAgICAgICAgICAgQ29tbXVuaWNhdGlvbnMgZm9yIGRhdGEgdHJhbnNmZXJzIGFuZCByZW1vdGUgbW9uaXRvcmluZyBjYW4gYmUgYWNoaWV2ZWQgdGhyb3VnaCByYWRpbywgaW50ZXJuZXQsIGNlbGx1bGFyIG9yIHNhdGVsbGl0ZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBQcm9ncmFtbWFibGUgdmlhIFB5dGhvblxyXG4gICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgIDwvQ29sPlxyXG4gICAgICAgICAgICAgICAgPENvbCBsYXN0PXt0cnVlfT5cclxuICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cIi9zdGF0aWMvbG9nZ2VyLnBuZ1wiIGNsYXNzTmFtZT1cImNvbC1pbWFnZVwiIC8+XHJcbiAgICAgICAgICAgICAgICA8L0NvbD5cclxuICAgICAgICAgICAgPC9Sb3c+XHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICA8L1NlY3Rpb24+XHJcbiAgICA8L2Rpdj5cclxufSJdfQ== */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\About.jsx */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "ABOUT US"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Col__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    first: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "The Scribe Datalogger is an easy to use, universal logger designed for scientific and industrial markets, offers real-time data displays, wireless connectivity, cloud data storage, and big data applications Highly adaptable to meet any measurement need including scientific, industrial or military applications Measurement protocols include but not limited to: analog, pulse, bridge, SDI-12, and serial protocols Communications for data transfers and remote monitoring can be achieved through radio, internet, cellular or satellite Programmable via Python")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Col__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    last: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "/static/logger.png",
+    className: "jsx-2304574083" + " " + "col-image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  })))));
+});
+
+/***/ }),
+
 /***/ "./components/BigVideo.jsx":
 /*!*********************************!*\
   !*** ./components/BigVideo.jsx ***!
@@ -14,48 +103,273 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants/StyleConstants */ "./constants/StyleConstants.js");
-var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\hello-next\\components\\BigVideo.jsx";
+/* harmony import */ var react_scroll_parallax__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-scroll-parallax */ "./node_modules/react-scroll-parallax/cjs/index.js");
+/* harmony import */ var react_scroll_parallax__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scroll_parallax__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\BigVideo.jsx";
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2225946512" + " " + "navbar",
+
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var videoSrc = _ref.videoSrc,
+      parralax = _ref.parralax;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_scroll_parallax__WEBPACK_IMPORTED_MODULE_3__["Parallax"], {
+    y: [0, 50],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2225946512",
+    id: "1697404078",
     __self: this
-  }, ".bigvid.jsx-2225946512{width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxoZWxsby1uZXh0XFxjb21wb25lbnRzXFxCaWdWaWRlby5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR29CLEFBRzJCLFdBQ2QiLCJmaWxlIjoiQzpcXFVzZXJzXFxNaWNoYWVsIEJyYW5uZW5cXERlc2t0b3BcXGhlbGxvLW5leHRcXGNvbXBvbmVudHNcXEJpZ1ZpZGVvLmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIHN0eWxlQ29uc3RhbnRzIGZyb20gICcuLi9jb25zdGFudHMvU3R5bGVDb25zdGFudHMnO1xyXG5leHBvcnQgZGVmYXVsdCAoKSA9PiB7XHJcbiAgICByZXR1cm4gPGRpdiBjbGFzc05hbWU9XCJuYXZiYXJcIj5cclxuICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgIC5iaWd2aWQge1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6MTAwJTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICA8dmlkZW8gYXV0b1BsYXk9e3RydWV9IG11dGVkPXt0cnVlfSBsb29wPXt0cnVlfSBjbGFzc05hbWU9XCJiaWd2aWRcIj5cclxuICAgICAgICAgICAgICAgIDxzb3VyY2Ugc3JjPVwiL3N0YXRpYy9CbHVlIFNreSBWaWRlby5tcDRcIiB0eXBlPVwidmlkZW8vbXA0XCIgLz5cclxuICAgICAgICAgICAgPC92aWRlbz4gICAgXHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICA8L2Rpdj5cclxufSJdfQ== */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\hello-next\\components\\BigVideo.jsx */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2225946512",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("video", {
+  }, ".bigvid.jsx-1697404078{width:100%;display:block;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcQmlnVmlkZW8uanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlvQixBQUcyQixXQUNHLGNBQ2pCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcQmlnVmlkZW8uanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICogYXMgc3R5bGVDb25zdGFudHMgZnJvbSAgJy4uL2NvbnN0YW50cy9TdHlsZUNvbnN0YW50cyc7XHJcbmltcG9ydCB7IFBhcmFsbGF4IH0gZnJvbSAncmVhY3Qtc2Nyb2xsLXBhcmFsbGF4JztcclxuZXhwb3J0IGRlZmF1bHQgKHt2aWRlb1NyYyxwYXJyYWxheH0pID0+IHtcclxuICAgIHJldHVybiA8UGFyYWxsYXggeT17WzAsNTBdfT5cclxuICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgIC5iaWd2aWQge1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6MTAwJTtcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6YmxvY2s7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPHZpZGVvIGF1dG9QbGF5PXt0cnVlfSBtdXRlZD17dHJ1ZX0gbG9vcD17dHJ1ZX0gY2xhc3NOYW1lPVwiYmlndmlkXCI+XHJcbiAgICAgICAgICAgIDxzb3VyY2Ugc3JjPXt2aWRlb1NyY30gdHlwZT1cInZpZGVvL21wNFwiIC8+XHJcbiAgICAgICAgPC92aWRlbz5cclxuICAgIDwvUGFyYWxsYXg+XHJcbn0iXX0= */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\BigVideo.jsx */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("video", {
     autoPlay: true,
     muted: true,
     loop: true,
-    className: "jsx-2225946512" + " " + "bigvid",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("source", {
-    src: "/static/Blue Sky Video.mp4",
-    type: "video/mp4",
-    className: "jsx-2225946512",
+    className: "jsx-1697404078" + " " + "bigvid",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }))));
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("source", {
+    src: videoSrc,
+    type: "video/mp4",
+    className: "jsx-1697404078",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  })));
+});
+
+/***/ }),
+
+/***/ "./components/Col.jsx":
+/*!****************************!*\
+  !*** ./components/Col.jsx ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Col; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../constants/StyleConstants */ "./constants/StyleConstants.js");
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Col.jsx";
+
+
+
+
+/*
+    To get rid of padding on appropriate sides, 
+    add first={true} to the first col, and last={true} to the last col
+*/
+
+var Col =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Col, _React$Component);
+
+  function Col() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Col);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Col).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Col, [{
+    key: "render",
+    value: function render() {
+      var padding;
+
+      if (this.props.first) {
+        padding = "padding-right: ".concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["marginNum"] / 2, "px");
+      } else if (this.props.last) {
+        padding = "padding-left: ".concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["marginNum"] / 2, "px");
+      } else {
+        padding = "padding: 0 ".concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["marginNum"] / 2, "px");
+      }
+
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["3771438760", [padding]]]) + " " + "col",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "3771438760",
+        dynamic: [padding],
+        __self: this
+      }, ".col.__jsx-style-dynamic-selector{-webkit-flex:1;-ms-flex:1;flex:1;".concat(padding, ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcQ29sLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQm9CLEFBR3VCLGlDQUVYLDZCQUFDIiwiZmlsZSI6IkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcQ29sLmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIHN0eWxlQ29uc3RhbnRzIGZyb20gICcuLi9jb25zdGFudHMvU3R5bGVDb25zdGFudHMnO1xyXG5pbXBvcnQgJ3JlYWN0JztcclxuLypcclxuICAgIFRvIGdldCByaWQgb2YgcGFkZGluZyBvbiBhcHByb3ByaWF0ZSBzaWRlcywgXHJcbiAgICBhZGQgZmlyc3Q9e3RydWV9IHRvIHRoZSBmaXJzdCBjb2wsIGFuZCBsYXN0PXt0cnVlfSB0byB0aGUgbGFzdCBjb2xcclxuKi9cclxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgQ29sIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xyXG4gICAgcmVuZGVyKCl7XHJcbiAgICAgICAgbGV0IHBhZGRpbmc7XHJcbiAgICAgICAgaWYodGhpcy5wcm9wcy5maXJzdCl7XHJcbiAgICAgICAgICAgIHBhZGRpbmcgPSBgcGFkZGluZy1yaWdodDogJHtzdHlsZUNvbnN0YW50cy5tYXJnaW5OdW0gLyAyfXB4YDtcclxuICAgICAgICB9IGVsc2UgaWYodGhpcy5wcm9wcy5sYXN0KXtcclxuICAgICAgICAgICAgcGFkZGluZyA9IGBwYWRkaW5nLWxlZnQ6ICR7c3R5bGVDb25zdGFudHMubWFyZ2luTnVtIC8gMn1weGA7XHJcbiAgICAgICAgfSBlbHNlIHtcclxuICAgICAgICAgICAgcGFkZGluZyA9IGBwYWRkaW5nOiAwICR7c3R5bGVDb25zdGFudHMubWFyZ2luTnVtIC8gMn1weGA7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIHJldHVybiA8ZGl2IGNsYXNzTmFtZT1cImNvbFwiPlxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgLmNvbCB7XHJcbiAgICAgICAgICAgICAgICBmbGV4OjE7XHJcbiAgICAgICAgICAgICAgICAke3BhZGRpbmd9XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICAgIHt0aGlzLnByb3BzLmNoaWxkcmVufVxyXG4gICAgPC9kaXY+XHJcbiAgICB9XHJcbn0iXX0= */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Col.jsx */")), this.props.children);
+    }
+  }]);
+
+  return Col;
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+
+
+/***/ }),
+
+/***/ "./components/Founders.jsx":
+/*!*********************************!*\
+  !*** ./components/Founders.jsx ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants/StyleConstants */ "./constants/StyleConstants.js");
+/* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Section */ "./components/Section.jsx");
+/* harmony import */ var _Col__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Col */ "./components/Col.jsx");
+/* harmony import */ var _Row__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Row */ "./components/Row.jsx");
+var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Founders.jsx";
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: "about-us",
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2304574083",
+    __self: this
+  }, "#about-us.jsx-2304574083{margin-bottom:300px;}.col-image.jsx-2304574083{width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcRm91bmRlcnMuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1vQixBQUdvQyxBQUdULFdBQ2QsU0FIQSIsImZpbGUiOiJDOlxcVXNlcnNcXE1pY2hhZWwgQnJhbm5lblxcRGVza3RvcFxcU2NyaWJlLVNpdGVcXGNvbXBvbmVudHNcXEZvdW5kZXJzLmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIHN0eWxlQ29uc3RhbnRzIGZyb20gICcuLi9jb25zdGFudHMvU3R5bGVDb25zdGFudHMnO1xyXG5pbXBvcnQgU2VjdGlvbiBmcm9tICcuL1NlY3Rpb24nO1xyXG5pbXBvcnQgQ29sIGZyb20gJy4vQ29sJ1xyXG5pbXBvcnQgUm93IGZyb20gJy4vUm93J1xyXG5leHBvcnQgZGVmYXVsdCAoKSA9PiB7XHJcbiAgICByZXR1cm4gPGRpdiBpZD1cImFib3V0LXVzXCI+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAjYWJvdXQtdXMge1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTozMDBweDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAuY29sLWltYWdlIHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPFNlY3Rpb24+XHJcbiAgICAgICAgPGgxPkZPVU5ERVJTPC9oMT5cclxuICAgICAgICAgICAgPFJvdz5cclxuICAgICAgICAgICAgICAgIDxDb2wgZmlyc3Q9e3RydWV9PlxyXG4gICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiL3N0YXRpYy9QaWN0dXJlMS5wbmdcIiBjbGFzc05hbWU9XCJjb2wtaW1hZ2VcIiAvPlxyXG4gICAgICAgICAgICAgICAgICAgIDxoMj5CZW4gRmFzb2xpPC9oMj5cclxuICAgICAgICAgICAgICAgICAgICA8cD5Tb2Z0d2FyZSBEZXZlbG9wbWVudDwvcD5cclxuICAgICAgICAgICAgICAgIDwvQ29sPlxyXG4gICAgICAgICAgICAgICAgPENvbD5cclxuICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cIi9zdGF0aWMvUGljdHVyZTIuanBnXCIgY2xhc3NOYW1lPVwiY29sLWltYWdlXCIgLz5cclxuICAgICAgICAgICAgICAgICAgICA8aDI+UnlhbiBCYXJlczwvaDI+XHJcbiAgICAgICAgICAgICAgICAgICAgPHA+QnVzaW5lc3MgRGV2ZWxvcG1lbnQ8L3A+XHJcbiAgICAgICAgICAgICAgICA8L0NvbD5cclxuICAgICAgICAgICAgICAgIDxDb2wgbGFzdD17dHJ1ZX0+XHJcbiAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9XCIvc3RhdGljL1BpY3R1cmUzLnBuZ1wiIGNsYXNzTmFtZT1cImNvbC1pbWFnZVwiIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgPGgyPkJyYW5kb24gTWFydGluPC9oMj5cclxuICAgICAgICAgICAgICAgICAgICA8cD5IYXJkd2FyZSBDb21tZXJjaWFsaXphdGlvbjwvcD5cclxuICAgICAgICAgICAgICAgIDwvQ29sPlxyXG4gICAgICAgICAgICA8L1Jvdz5cclxuICAgICAgICAgICAgICAgIFxyXG4gICAgICAgIDwvU2VjdGlvbj5cclxuICAgIDwvZGl2PlxyXG59Il19 */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Founders.jsx */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "FOUNDERS"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Col__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    first: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "/static/Picture1.png",
+    className: "jsx-2304574083" + " " + "col-image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "Ben Fasoli"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "Software Development")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Col__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "/static/Picture2.jpg",
+    className: "jsx-2304574083" + " " + "col-image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Ryan Bares"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Business Development")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Col__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    last: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "/static/Picture3.png",
+    className: "jsx-2304574083" + " " + "col-image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Brandon Martin"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-2304574083",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Hardware Commercialization")))));
 });
 
 /***/ }),
@@ -73,7 +387,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\hello-next\\components\\Head.jsx";
+var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Head.jsx";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
@@ -134,66 +448,66 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants/StyleConstants */ "./constants/StyleConstants.js");
-var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\hello-next\\components\\Navbar.jsx";
+var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Navbar.jsx";
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["3438539040", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]) + " " + "navbar",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2761833812", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]) + " " + "navbar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3438539040",
-    dynamic: [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]],
+    id: "2761833812",
+    dynamic: [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]],
     __self: this
-  }, ".navbar.__jsx-style-dynamic-selector{width:100%;position:fixed;height:73.65px;top:0;background:#fff;}.navbar-container.__jsx-style-dynamic-selector{".concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], ";}.logo.__jsx-style-dynamic-selector{width:200px;}nav.__jsx-style-dynamic-selector{display:inline-block;float:right;padding-top:30px;}nav.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{-webkit-text-decoration:none;text-decoration:none;color:#222;margin:0 25px;font-family:'Barlow',sans-serif;font-weight:200;").concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"], ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxoZWxsby1uZXh0XFxjb21wb25lbnRzXFxOYXZiYXIuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdvQixBQUcyQixBQVFmLEFBRWlCLEFBR1EsQUFLQSxXQWpCTCxDQVVuQixTQUdlLEtBWkcsR0FNbEIsSUFPb0IsUUFaWCxNQUNVLEdBWW5CLEFBR2MsV0FDRyxFQWZqQixZQWdCcUMsZ0NBQ2xCLGdCQUVwQiw2QkFBQyIsImZpbGUiOiJDOlxcVXNlcnNcXE1pY2hhZWwgQnJhbm5lblxcRGVza3RvcFxcaGVsbG8tbmV4dFxcY29tcG9uZW50c1xcTmF2YmFyLmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIHN0eWxlQ29uc3RhbnRzIGZyb20gICcuLi9jb25zdGFudHMvU3R5bGVDb25zdGFudHMnO1xyXG5leHBvcnQgZGVmYXVsdCAoKSA9PiB7XHJcbiAgICByZXR1cm4gPGRpdiBjbGFzc05hbWU9XCJuYXZiYXJcIj5cclxuICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgIC5uYXZiYXIge1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6MTAwJTtcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDtcclxuICAgICAgICAgICAgICAgIGhlaWdodDo3My42NXB4O1xyXG4gICAgICAgICAgICAgICAgdG9wOjA7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiNmZmY7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgLm5hdmJhci1jb250YWluZXIge1xyXG4gICAgICAgICAgICAgICAgJHtzdHlsZUNvbnN0YW50cy5jb250YWluZXJNYXJnaW59XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgLmxvZ28ge1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIG5hdiB7XHJcbiAgICAgICAgICAgICAgICBkaXNwbGF5OmlubGluZS1ibG9jaztcclxuICAgICAgICAgICAgICAgIGZsb2F0OnJpZ2h0O1xyXG4gICAgICAgICAgICAgICAgcGFkZGluZy10b3A6MzBweDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBuYXYgYXtcclxuICAgICAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjpub25lO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6IzIyMjtcclxuICAgICAgICAgICAgICAgIG1hcmdpbjowIDI1cHg7XHJcbiAgICAgICAgICAgICAgICBmb250LWZhbWlseTogJ0JhcmxvdycsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgICAgICAgICBmb250LXdlaWdodDoyMDA7XHJcbiAgICAgICAgICAgICAgICAke3N0eWxlQ29uc3RhbnRzLmhlYWRpbmdTaXplMX1cclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhci1jb250YWluZXJcIj5cclxuICAgICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJsb2dvXCIgc3JjPVwiL3N0YXRpYy9sb2dvLnBuZ1wiLz5cclxuICAgICAgICAgICAgPG5hdj5cclxuICAgICAgICAgICAgICAgIDxhIGhyZWY9XCIjYWJvdXQtdXNcIj5BYm91dCBVczwvYT5cclxuICAgICAgICAgICAgICAgIDxhIGhyZWY9XCIjb3VyLWZvdW5kZXJzXCI+T3VyIEZvdW5kZXJzPC9hPlxyXG4gICAgICAgICAgICAgICAgPGEgaHJlZj1cIiNvdXItcHJvZHVjdFwiPk91ciBQcm9kdWN0PC9hPlxyXG4gICAgICAgICAgICA8L25hdj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgIDwvZGl2PlxyXG59Il19 */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\hello-next\\components\\Navbar.jsx */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["3438539040", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]) + " " + "navbar-container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "/static/logo.png",
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["3438539040", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]) + " " + "logo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["3438539040", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]),
+  }, ".navbar.__jsx-style-dynamic-selector{width:100%;position:fixed;height:73.65px;top:0;background:#fff;z-index:10101010;".concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["shadow"], ";}.navbar-container.__jsx-style-dynamic-selector{").concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], ";}.logo.__jsx-style-dynamic-selector{width:200px;}nav.__jsx-style-dynamic-selector{display:inline-block;float:right;padding-top:30px;}nav.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{-webkit-text-decoration:none;text-decoration:none;color:#222;margin:0 25px;font-family:'Barlow',sans-serif;font-weight:200;").concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"], ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcTmF2YmFyLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHb0IsQUFHMkIsQUFVZixBQUVpQixBQUdRLEFBS0EsV0FuQkwsQ0FZbkIsU0FHZSxLQWRHLEdBUWxCLElBT29CLFFBZFgsTUFDVSxHQWNuQixBQUdjLFdBQ0csRUFqQkksWUFrQmdCLEtBaEJ0QywyQkFpQm9CLEVBakJuQixjQW1CRCw2QkFBQyIsImZpbGUiOiJDOlxcVXNlcnNcXE1pY2hhZWwgQnJhbm5lblxcRGVza3RvcFxcU2NyaWJlLVNpdGVcXGNvbXBvbmVudHNcXE5hdmJhci5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgKiBhcyBzdHlsZUNvbnN0YW50cyBmcm9tICAnLi4vY29uc3RhbnRzL1N0eWxlQ29uc3RhbnRzJztcclxuZXhwb3J0IGRlZmF1bHQgKCkgPT4ge1xyXG4gICAgcmV0dXJuIDxkaXYgY2xhc3NOYW1lPVwibmF2YmFyXCI+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAubmF2YmFyIHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICAgICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICAgICAgICAgICAgICBoZWlnaHQ6NzMuNjVweDtcclxuICAgICAgICAgICAgICAgIHRvcDowO1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZDojZmZmO1xyXG4gICAgICAgICAgICAgICAgei1pbmRleDogMTAxMDEwMTA7XHJcbiAgICAgICAgICAgICAgICAke3N0eWxlQ29uc3RhbnRzLnNoYWRvd31cclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAubmF2YmFyLWNvbnRhaW5lciB7XHJcbiAgICAgICAgICAgICAgICAke3N0eWxlQ29uc3RhbnRzLmNvbnRhaW5lck1hcmdpbn1cclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAubG9nbyB7XHJcbiAgICAgICAgICAgICAgICB3aWR0aDogMjAwcHg7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgbmF2IHtcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6aW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgICAgICAgZmxvYXQ6cmlnaHQ7XHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nLXRvcDozMHB4O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIG5hdiBhe1xyXG4gICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOm5vbmU7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjojMjIyO1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luOjAgMjVweDtcclxuICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnQmFybG93Jywgc2Fucy1zZXJpZjtcclxuICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OjIwMDtcclxuICAgICAgICAgICAgICAgICR7c3R5bGVDb25zdGFudHMuaGVhZGluZ1NpemUxfVxyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibmF2YmFyLWNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cImxvZ29cIiBzcmM9XCIvc3RhdGljL2xvZ28ucG5nXCIvPlxyXG4gICAgICAgICAgICA8bmF2PlxyXG4gICAgICAgICAgICAgICAgPGEgaHJlZj1cIiNhYm91dC11c1wiPkFib3V0IFVzPC9hPlxyXG4gICAgICAgICAgICAgICAgPGEgaHJlZj1cIiNvdXItZm91bmRlcnNcIj5PdXIgRm91bmRlcnM8L2E+XHJcbiAgICAgICAgICAgICAgICA8YSBocmVmPVwiI291ci1wcm9kdWN0XCI+T3VyIFByb2R1Y3Q8L2E+XHJcbiAgICAgICAgICAgIDwvbmF2PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgPC9kaXY+XHJcbn0iXX0= */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Navbar.jsx */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2761833812", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]) + " " + "navbar-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "#about-us",
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["3438539040", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]),
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "/static/logo.png",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2761833812", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]) + " " + "logo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, "About Us"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "#our-founders",
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["3438539040", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]),
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2761833812", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }, "Our Founders"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "#our-product",
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["3438539040", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]),
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "#about-us",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2761833812", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
+    },
+    __self: this
+  }, "About Us"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "#our-founders",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2761833812", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "Our Founders"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "#our-product",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2761833812", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["containerMargin"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_2__["headingSize1"]]]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
     },
     __self: this
   }, "Our Product"))));
@@ -201,19 +515,206 @@ var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\hello-next\\components\
 
 /***/ }),
 
-/***/ "./constants/StyleConstants.js":
-/*!*************************************!*\
-  !*** ./constants/StyleConstants.js ***!
-  \*************************************/
-/*! exports provided: containerMargin, headingSize1 */
+/***/ "./components/Row.jsx":
+/*!****************************!*\
+  !*** ./components/Row.jsx ***!
+  \****************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Row; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../constants/StyleConstants */ "./constants/StyleConstants.js");
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Row.jsx";
+
+
+
+
+
+var Row =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Row, _React$Component);
+
+  function Row() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Row);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Row).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Row, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-314506503" + " " + "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "314506503",
+        __self: this
+      }, ".row.jsx-314506503{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcUm93LmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLb0IsQUFHNkIsMEVBQ2hCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcUm93LmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIHN0eWxlQ29uc3RhbnRzIGZyb20gICcuLi9jb25zdGFudHMvU3R5bGVDb25zdGFudHMnO1xyXG5pbXBvcnQgJ3JlYWN0JztcclxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgUm93IGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xyXG4gICAgcmVuZGVyKCl7XHJcbiAgICAgICAgcmV0dXJuIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAucm93IHtcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6ZmxleDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICAgICAge3RoaXMucHJvcHMuY2hpbGRyZW59XHJcbiAgICA8L2Rpdj5cclxuICAgIH1cclxufSJdfQ== */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Row.jsx */"), this.props.children);
+    }
+  }]);
+
+  return Row;
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+
+
+/***/ }),
+
+/***/ "./components/Section.jsx":
+/*!********************************!*\
+  !*** ./components/Section.jsx ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Section; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../constants/StyleConstants */ "./constants/StyleConstants.js");
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Section.jsx";
+
+
+
+
+
+var Section =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Section, _React$Component);
+
+  function Section() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Section);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Section).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Section, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1913560847", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["colors"].colorWhite, _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["containerPadding"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["containerMargin"]]]]) + " " + "section-container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "1913560847",
+        dynamic: [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["colors"].colorWhite, _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["containerPadding"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["containerMargin"]],
+        __self: this
+      }, ".section-container.__jsx-style-dynamic-selector{background:".concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["colors"].colorWhite, ";width:100%;z-index:10;position:absolute;").concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["containerPadding"], " ").concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["shadow"], ";}.section-inner.__jsx-style-dynamic-selector{").concat(_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["containerMargin"], ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxcY29tcG9uZW50c1xcU2VjdGlvbi5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS29CLEFBR3dELEFBUzVDLDZCQUFDLFdBUmMsV0FDQSxXQUNRLGtCQUd2QiwwREFBQyIsImZpbGUiOiJDOlxcVXNlcnNcXE1pY2hhZWwgQnJhbm5lblxcRGVza3RvcFxcU2NyaWJlLVNpdGVcXGNvbXBvbmVudHNcXFNlY3Rpb24uanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICogYXMgc3R5bGVDb25zdGFudHMgZnJvbSAgJy4uL2NvbnN0YW50cy9TdHlsZUNvbnN0YW50cyc7XHJcbmltcG9ydCAncmVhY3QnO1xyXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBTZWN0aW9uIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xyXG4gICAgcmVuZGVyKCl7XHJcbiAgICAgICAgcmV0dXJuIDxkaXYgY2xhc3NOYW1lPVwic2VjdGlvbi1jb250YWluZXJcIj5cclxuICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgIC5zZWN0aW9uLWNvbnRhaW5lcntcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6JHtzdHlsZUNvbnN0YW50cy5jb2xvcnMuY29sb3JXaGl0ZX07XHJcbiAgICAgICAgICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgICAgICAgICAgei1pbmRleDoxMDtcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgICAgICAgICR7c3R5bGVDb25zdGFudHMuY29udGFpbmVyUGFkZGluZ31cclxuICAgICAgICAgICAgICAgICR7c3R5bGVDb25zdGFudHMuc2hhZG93fVxyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIC5zZWN0aW9uLWlubmVye1xyXG4gICAgICAgICAgICAgICAgJHtzdHlsZUNvbnN0YW50cy5jb250YWluZXJNYXJnaW59XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2VjdGlvbi1pbm5lclwiPlxyXG4gICAgICAgICAgICAgICAge3RoaXMucHJvcHMuY2hpbGRyZW59XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgPC9kaXY+XHJcbiAgICB9XHJcbn0iXX0= */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\components\\Section.jsx */")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1913560847", [_constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["colors"].colorWhite, _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["containerPadding"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["shadow"], _constants_StyleConstants__WEBPACK_IMPORTED_MODULE_7__["containerMargin"]]]]) + " " + "section-inner",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, this.props.children));
+    }
+  }]);
+
+  return Section;
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+
+
+/***/ }),
+
+/***/ "./constants/Color.js":
+/*!****************************!*\
+  !*** ./constants/Color.js ***!
+  \****************************/
+/*! exports provided: colorPrimaryVeryLight, colorPrimaryLight, colorPrimary, colorPrimaryDark, colorPrimaryVeryDark, colorBlackVeryLight, colorBlackLight, colorBlack, colorBlackDark, colorBlackVeryDark, colorWhite */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorPrimaryVeryLight", function() { return colorPrimaryVeryLight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorPrimaryLight", function() { return colorPrimaryLight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorPrimary", function() { return colorPrimary; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorPrimaryDark", function() { return colorPrimaryDark; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorPrimaryVeryDark", function() { return colorPrimaryVeryDark; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorBlackVeryLight", function() { return colorBlackVeryLight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorBlackLight", function() { return colorBlackLight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorBlack", function() { return colorBlack; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorBlackDark", function() { return colorBlackDark; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorBlackVeryDark", function() { return colorBlackVeryDark; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colorWhite", function() { return colorWhite; });
+// Scribe Green
+var colorPrimaryVeryLight = "#98D5C8";
+var colorPrimaryLight = "#68C6B2";
+var colorPrimary = "#4EAF98";
+var colorPrimaryDark = "#408776";
+var colorPrimaryVeryDark = "#1B5F4F"; // Black
+
+var colorBlackVeryLight = "#EAEAEA";
+var colorBlackLight = "#D2D2D2";
+var colorBlack = "#8E8E8E";
+var colorBlackDark = "#515151";
+var colorBlackVeryDark = "#2D2D2D"; // White
+
+var colorWhite = "#FFFFFF";
+
+/***/ }),
+
+/***/ "./constants/StyleConstants.js":
+/*!*************************************!*\
+  !*** ./constants/StyleConstants.js ***!
+  \*************************************/
+/*! exports provided: colors, marginNum, containerMargin, containerPadding, headingSize1, shadow */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "colors", function() { return colors; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "marginNum", function() { return marginNum; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "containerMargin", function() { return containerMargin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "containerPadding", function() { return containerPadding; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "headingSize1", function() { return headingSize1; });
-var containerMargin = "margin: 0 50px;";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "shadow", function() { return shadow; });
+/* harmony import */ var _Color__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Color */ "./constants/Color.js");
+
+var colors = _Color__WEBPACK_IMPORTED_MODULE_0__;
+var marginNum = 50;
+var containerMargin = "margin: 0 ".concat(marginNum, "px;");
+var containerPadding = "padding: ".concat(marginNum, "px 0;");
 var headingSize1 = "font-size:1.35em;";
+var shadow = "box-shadow: 0 0 10px rgba(2,2,2,.5);";
 
 /***/ }),
 
@@ -3754,10 +4255,10 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5Chello-next%5Cpages%5Cindex.js!./":
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5Chello-next%5Cpages%5Cindex.js ***!
-  \***************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5CScribe-Site%5Cpages%5Cindex.js!./":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5CScribe-Site%5Cpages%5Cindex.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3774,6 +4275,17 @@ exports.default = withSideEffect;
       return { page: page.default || page }
     }]);
   
+
+/***/ }),
+
+/***/ "./node_modules/object-assign/index.js":
+/*!***************************************************************************************************!*\
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -3969,6 +4481,2355 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/checkPropTypes.js":
+/*!*********************************************************************************************************!*\
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/prop-types/checkPropTypes.js");
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!************************************************************!*\
+  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
+
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+
+var printWarning = function() {};
+
+if (true) {
+  printWarning = function(text) {
+    var message = 'Warning: ' + text;
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+}
+
+function emptyFunctionThatReturnsNull() {
+  return null;
+}
+
+module.exports = function(isValidElement, throwOnDirectAccess) {
+  /* global Symbol */
+  var ITERATOR_SYMBOL = typeof Symbol === 'function' && Symbol.iterator;
+  var FAUX_ITERATOR_SYMBOL = '@@iterator'; // Before Symbol spec.
+
+  /**
+   * Returns the iterator method function contained on the iterable object.
+   *
+   * Be sure to invoke the function with the iterable as context:
+   *
+   *     var iteratorFn = getIteratorFn(myIterable);
+   *     if (iteratorFn) {
+   *       var iterator = iteratorFn.call(myIterable);
+   *       ...
+   *     }
+   *
+   * @param {?object} maybeIterable
+   * @return {?function}
+   */
+  function getIteratorFn(maybeIterable) {
+    var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
+    if (typeof iteratorFn === 'function') {
+      return iteratorFn;
+    }
+  }
+
+  /**
+   * Collection of methods that allow declaration and validation of props that are
+   * supplied to React components. Example usage:
+   *
+   *   var Props = require('ReactPropTypes');
+   *   var MyArticle = React.createClass({
+   *     propTypes: {
+   *       // An optional string prop named "description".
+   *       description: Props.string,
+   *
+   *       // A required enum prop named "category".
+   *       category: Props.oneOf(['News','Photos']).isRequired,
+   *
+   *       // A prop named "dialog" that requires an instance of Dialog.
+   *       dialog: Props.instanceOf(Dialog).isRequired
+   *     },
+   *     render: function() { ... }
+   *   });
+   *
+   * A more formal specification of how these methods are used:
+   *
+   *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
+   *   decl := ReactPropTypes.{type}(.isRequired)?
+   *
+   * Each and every declaration produces a function with the same signature. This
+   * allows the creation of custom validation functions. For example:
+   *
+   *  var MyLink = React.createClass({
+   *    propTypes: {
+   *      // An optional string or URI prop named "href".
+   *      href: function(props, propName, componentName) {
+   *        var propValue = props[propName];
+   *        if (propValue != null && typeof propValue !== 'string' &&
+   *            !(propValue instanceof URI)) {
+   *          return new Error(
+   *            'Expected a string or an URI for ' + propName + ' in ' +
+   *            componentName
+   *          );
+   *        }
+   *      }
+   *    },
+   *    render: function() {...}
+   *  });
+   *
+   * @internal
+   */
+
+  var ANONYMOUS = '<<anonymous>>';
+
+  // Important!
+  // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
+  var ReactPropTypes = {
+    array: createPrimitiveTypeChecker('array'),
+    bool: createPrimitiveTypeChecker('boolean'),
+    func: createPrimitiveTypeChecker('function'),
+    number: createPrimitiveTypeChecker('number'),
+    object: createPrimitiveTypeChecker('object'),
+    string: createPrimitiveTypeChecker('string'),
+    symbol: createPrimitiveTypeChecker('symbol'),
+
+    any: createAnyTypeChecker(),
+    arrayOf: createArrayOfTypeChecker,
+    element: createElementTypeChecker(),
+    instanceOf: createInstanceTypeChecker,
+    node: createNodeChecker(),
+    objectOf: createObjectOfTypeChecker,
+    oneOf: createEnumTypeChecker,
+    oneOfType: createUnionTypeChecker,
+    shape: createShapeTypeChecker,
+    exact: createStrictShapeTypeChecker,
+  };
+
+  /**
+   * inlined Object.is polyfill to avoid requiring consumers ship their own
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+   */
+  /*eslint-disable no-self-compare*/
+  function is(x, y) {
+    // SameValue algorithm
+    if (x === y) {
+      // Steps 1-5, 7-10
+      // Steps 6.b-6.e: +0 != -0
+      return x !== 0 || 1 / x === 1 / y;
+    } else {
+      // Step 6.a: NaN == NaN
+      return x !== x && y !== y;
+    }
+  }
+  /*eslint-enable no-self-compare*/
+
+  /**
+   * We use an Error-like object for backward compatibility as people may call
+   * PropTypes directly and inspect their output. However, we don't use real
+   * Errors anymore. We don't inspect their stack anyway, and creating them
+   * is prohibitively expensive if they are created too often, such as what
+   * happens in oneOfType() for any type before the one that matched.
+   */
+  function PropTypeError(message) {
+    this.message = message;
+    this.stack = '';
+  }
+  // Make `instanceof Error` still work for returned errors.
+  PropTypeError.prototype = Error.prototype;
+
+  function createChainableTypeChecker(validate) {
+    if (true) {
+      var manualPropTypeCallCache = {};
+      var manualPropTypeWarningCount = 0;
+    }
+    function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
+      componentName = componentName || ANONYMOUS;
+      propFullName = propFullName || propName;
+
+      if (secret !== ReactPropTypesSecret) {
+        if (throwOnDirectAccess) {
+          // New behavior only for users of `prop-types` package
+          var err = new Error(
+            'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
+            'Use `PropTypes.checkPropTypes()` to call them. ' +
+            'Read more at http://fb.me/use-check-prop-types'
+          );
+          err.name = 'Invariant Violation';
+          throw err;
+        } else if ( true && typeof console !== 'undefined') {
+          // Old behavior for people using React.PropTypes
+          var cacheKey = componentName + ':' + propName;
+          if (
+            !manualPropTypeCallCache[cacheKey] &&
+            // Avoid spamming the console because they are often not actionable except for lib authors
+            manualPropTypeWarningCount < 3
+          ) {
+            printWarning(
+              'You are manually calling a React.PropTypes validation ' +
+              'function for the `' + propFullName + '` prop on `' + componentName  + '`. This is deprecated ' +
+              'and will throw in the standalone `prop-types` package. ' +
+              'You may be seeing this warning due to a third-party PropTypes ' +
+              'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.'
+            );
+            manualPropTypeCallCache[cacheKey] = true;
+            manualPropTypeWarningCount++;
+          }
+        }
+      }
+      if (props[propName] == null) {
+        if (isRequired) {
+          if (props[propName] === null) {
+            return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required ' + ('in `' + componentName + '`, but its value is `null`.'));
+          }
+          return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required in ' + ('`' + componentName + '`, but its value is `undefined`.'));
+        }
+        return null;
+      } else {
+        return validate(props, propName, componentName, location, propFullName);
+      }
+    }
+
+    var chainedCheckType = checkType.bind(null, false);
+    chainedCheckType.isRequired = checkType.bind(null, true);
+
+    return chainedCheckType;
+  }
+
+  function createPrimitiveTypeChecker(expectedType) {
+    function validate(props, propName, componentName, location, propFullName, secret) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== expectedType) {
+        // `propValue` being instance of, say, date/regexp, pass the 'object'
+        // check, but we can offer a more precise error message here rather than
+        // 'of type `object`'.
+        var preciseType = getPreciseType(propValue);
+
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createAnyTypeChecker() {
+    return createChainableTypeChecker(emptyFunctionThatReturnsNull);
+  }
+
+  function createArrayOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
+      }
+      var propValue = props[propName];
+      if (!Array.isArray(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
+      }
+      for (var i = 0; i < propValue.length; i++) {
+        var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']', ReactPropTypesSecret);
+        if (error instanceof Error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createElementTypeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      if (!isValidElement(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createInstanceTypeChecker(expectedClass) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!(props[propName] instanceof expectedClass)) {
+        var expectedClassName = expectedClass.name || ANONYMOUS;
+        var actualClassName = getClassName(props[propName]);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createEnumTypeChecker(expectedValues) {
+    if (!Array.isArray(expectedValues)) {
+       true ? printWarning('Invalid argument supplied to oneOf, expected an instance of array.') : undefined;
+      return emptyFunctionThatReturnsNull;
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      for (var i = 0; i < expectedValues.length; i++) {
+        if (is(propValue, expectedValues[i])) {
+          return null;
+        }
+      }
+
+      var valuesString = JSON.stringify(expectedValues);
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createObjectOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
+      }
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
+      }
+      for (var key in propValue) {
+        if (propValue.hasOwnProperty(key)) {
+          var error = typeChecker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+          if (error instanceof Error) {
+            return error;
+          }
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createUnionTypeChecker(arrayOfTypeCheckers) {
+    if (!Array.isArray(arrayOfTypeCheckers)) {
+       true ? printWarning('Invalid argument supplied to oneOfType, expected an instance of array.') : undefined;
+      return emptyFunctionThatReturnsNull;
+    }
+
+    for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+      var checker = arrayOfTypeCheckers[i];
+      if (typeof checker !== 'function') {
+        printWarning(
+          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+          'received ' + getPostfixForTypeWarning(checker) + ' at index ' + i + '.'
+        );
+        return emptyFunctionThatReturnsNull;
+      }
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+        var checker = arrayOfTypeCheckers[i];
+        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
+          return null;
+        }
+      }
+
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createNodeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!isNode(props[propName])) {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      for (var key in shapeTypes) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          continue;
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createStrictShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      // We need to check all keys in case some are required but missing from
+      // props.
+      var allKeys = assign({}, props[propName], shapeTypes);
+      for (var key in allKeys) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          return new PropTypeError(
+            'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
+            '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
+            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+          );
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+
+    return createChainableTypeChecker(validate);
+  }
+
+  function isNode(propValue) {
+    switch (typeof propValue) {
+      case 'number':
+      case 'string':
+      case 'undefined':
+        return true;
+      case 'boolean':
+        return !propValue;
+      case 'object':
+        if (Array.isArray(propValue)) {
+          return propValue.every(isNode);
+        }
+        if (propValue === null || isValidElement(propValue)) {
+          return true;
+        }
+
+        var iteratorFn = getIteratorFn(propValue);
+        if (iteratorFn) {
+          var iterator = iteratorFn.call(propValue);
+          var step;
+          if (iteratorFn !== propValue.entries) {
+            while (!(step = iterator.next()).done) {
+              if (!isNode(step.value)) {
+                return false;
+              }
+            }
+          } else {
+            // Iterator will provide entry [k,v] tuples rather than values.
+            while (!(step = iterator.next()).done) {
+              var entry = step.value;
+              if (entry) {
+                if (!isNode(entry[1])) {
+                  return false;
+                }
+              }
+            }
+          }
+        } else {
+          return false;
+        }
+
+        return true;
+      default:
+        return false;
+    }
+  }
+
+  function isSymbol(propType, propValue) {
+    // Native Symbol.
+    if (propType === 'symbol') {
+      return true;
+    }
+
+    // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
+    if (propValue['@@toStringTag'] === 'Symbol') {
+      return true;
+    }
+
+    // Fallback for non-spec compliant Symbols which are polyfilled.
+    if (typeof Symbol === 'function' && propValue instanceof Symbol) {
+      return true;
+    }
+
+    return false;
+  }
+
+  // Equivalent of `typeof` but with special handling for array and regexp.
+  function getPropType(propValue) {
+    var propType = typeof propValue;
+    if (Array.isArray(propValue)) {
+      return 'array';
+    }
+    if (propValue instanceof RegExp) {
+      // Old webkits (at least until Android 4.0) return 'function' rather than
+      // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
+      // passes PropTypes.object.
+      return 'object';
+    }
+    if (isSymbol(propType, propValue)) {
+      return 'symbol';
+    }
+    return propType;
+  }
+
+  // This handles more types than `getPropType`. Only used for error messages.
+  // See `createPrimitiveTypeChecker`.
+  function getPreciseType(propValue) {
+    if (typeof propValue === 'undefined' || propValue === null) {
+      return '' + propValue;
+    }
+    var propType = getPropType(propValue);
+    if (propType === 'object') {
+      if (propValue instanceof Date) {
+        return 'date';
+      } else if (propValue instanceof RegExp) {
+        return 'regexp';
+      }
+    }
+    return propType;
+  }
+
+  // Returns a string that is postfixed to a warning about an invalid type.
+  // For example, "undefined" or "of type array"
+  function getPostfixForTypeWarning(value) {
+    var type = getPreciseType(value);
+    switch (type) {
+      case 'array':
+      case 'object':
+        return 'an ' + type;
+      case 'boolean':
+      case 'date':
+      case 'regexp':
+        return 'a ' + type;
+      default:
+        return type;
+    }
+  }
+
+  // Returns class name of the object, if any.
+  function getClassName(propValue) {
+    if (!propValue.constructor || !propValue.constructor.name) {
+      return ANONYMOUS;
+    }
+    return propValue.constructor.name;
+  }
+
+  ReactPropTypes.checkPropTypes = checkPropTypes;
+  ReactPropTypes.PropTypes = ReactPropTypes;
+
+  return ReactPropTypes;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/index.js":
+/*!******************************************!*\
+  !*** ./node_modules/prop-types/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+if (true) {
+  var REACT_ELEMENT_TYPE = (typeof Symbol === 'function' &&
+    Symbol.for &&
+    Symbol.for('react.element')) ||
+    0xeac7;
+
+  var isValidElement = function(object) {
+    return typeof object === 'object' &&
+      object !== null &&
+      object.$$typeof === REACT_ELEMENT_TYPE;
+  };
+
+  // By explicitly using `prop-types` you are opting into new development behavior.
+  // http://fb.me/prop-types-in-prod
+  var throwOnDirectAccess = true;
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(isValidElement, throwOnDirectAccess);
+} else {}
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!*******************************************************************************************************************!*\
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/classes/Bounds.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/classes/Bounds.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Bounds = function Bounds(rect, offsets, view) {
+  _classCallCheck(this, Bounds);
+
+  var y0 = offsets.y0,
+      y1 = offsets.y1,
+      x1 = offsets.x1,
+      x0 = offsets.x0; // Y offsets
+
+  var yPercent = y1.unit === '%' && y0.unit === '%';
+  var y0Px = y0.value;
+  var y1Px = y1.value;
+
+  if (yPercent) {
+    var h100 = rect.height / 100;
+    y0Px = y0.value * h100;
+    y1Px = y1.value * h100;
+  } // X offsets
+
+
+  var xPercent = x1.unit === '%' && x0.unit === '%';
+  var x0Px = x0.value;
+  var x1Px = x1.value;
+
+  if (xPercent) {
+    var _h = rect.width / 100;
+
+    x0Px = x0.value * _h;
+    x1Px = x1.value * _h;
+  }
+
+  var totalAbsOffY = Math.abs(y0Px) + Math.abs(y1Px);
+  this.totalDistY = view.height + rect.height + totalAbsOffY;
+  var totalDistTrueY = view.height + rect.height + (y1Px > y0Px ? totalAbsOffY * -1 : totalAbsOffY);
+  var totalAbsOffX = Math.abs(x0Px) + Math.abs(x1Px);
+  this.totalDistX = view.width + rect.width + totalAbsOffX;
+  var totalDistTrueX = view.width + rect.width + (x1Px > x0Px ? totalAbsOffX * -1 : totalAbsOffX); // const speed = totalDistTrueY / originTotalDistY;
+
+  var multiplierY = rect.originTotalDistY / totalDistTrueY;
+  var multiplierX = rect.originTotalDistX / totalDistTrueX;
+  this.top = rect.top;
+  this.bottom = rect.bottom;
+
+  if (y0Px < 0) {
+    this.top = this.top + y0Px * multiplierY;
+  }
+
+  if (y1Px > 0) {
+    this.bottom = this.bottom + y1Px * multiplierY;
+  }
+
+  this.left = rect.left;
+  this.right = rect.right;
+
+  if (x0Px < 0) {
+    this.left = this.left + x0Px * multiplierX;
+  }
+
+  if (x1Px > 0) {
+    this.right = this.right + x1Px * multiplierX;
+  }
+};
+
+var _default = Bounds;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/classes/Element.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/classes/Element.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Element = void 0;
+
+var _index = __webpack_require__(/*! ../utils/index */ "./node_modules/react-scroll-parallax/cjs/utils/index.js");
+
+var _index2 = __webpack_require__(/*! ../helpers/index */ "./node_modules/react-scroll-parallax/cjs/helpers/index.js");
+
+var _constants = __webpack_require__(/*! ../constants */ "./node_modules/react-scroll-parallax/cjs/constants.js");
+
+var _Bounds = _interopRequireDefault(__webpack_require__(/*! ./Bounds */ "./node_modules/react-scroll-parallax/cjs/classes/Bounds.js"));
+
+var _Rect = _interopRequireDefault(__webpack_require__(/*! ./Rect */ "./node_modules/react-scroll-parallax/cjs/classes/Rect.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var Element =
+/*#__PURE__*/
+function () {
+  function Element(options) {
+    _classCallCheck(this, Element);
+
+    this.elInner = options.elInner;
+    this.elOuter = options.elOuter;
+    this.props = options.props;
+    this.scrollAxis = options.scrollAxis;
+    this.id = (0, _index.createId)();
+    this.offsets = (0, _index2.getOffsets)(this.props);
+    this.isInView = null;
+    this.percent = 0;
+    this.updatePosition = options.scrollAxis === _constants.VERTICAL ? this._updatePositionVertical : this._updatePositionHorizontal;
+  }
+
+  _createClass(Element, [{
+    key: "updateProps",
+    value: function updateProps(nextProps) {
+      this.props = _objectSpread({}, this.props, nextProps);
+      this.offsets = (0, _index2.getOffsets)(nextProps);
+      return this;
+    }
+  }, {
+    key: "setCachedAttributes",
+    value: function setCachedAttributes(view, scroll) {
+      this.rect = new _Rect.default(this.elOuter, view, scroll);
+      this.bounds = new _Bounds.default(this.rect, this.offsets, view);
+      return this;
+    }
+  }, {
+    key: "_updatePositionHorizontal",
+    value: function _updatePositionHorizontal(view, scroll) {
+      this.isInView = (0, _index2.isElementInView)(this.bounds.left, this.bounds.right, view.width, scroll.x);
+      if (!this.isInView) return this;
+      this.percent = (0, _index2.percentMoved)(this.rect.left, this.rect.originTotalDistX, view.width, scroll.x);
+      (0, _index2.setParallaxStyles)(this.elInner, this.offsets, this.percent);
+      return this;
+    }
+  }, {
+    key: "_updatePositionVertical",
+    value: function _updatePositionVertical(view, scroll) {
+      this.isInView = (0, _index2.isElementInView)(this.bounds.top, this.bounds.bottom, view.height, scroll.y);
+      if (!this.isInView) return this;
+      this.percent = (0, _index2.percentMoved)(this.rect.top, this.rect.originTotalDistY, view.height, scroll.y);
+      (0, _index2.setParallaxStyles)(this.elInner, this.offsets, this.percent);
+      return this;
+    }
+  }]);
+
+  return Element;
+}();
+
+exports.Element = Element;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/classes/ParallaxController.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/classes/ParallaxController.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _utils = __webpack_require__(/*! ../utils */ "./node_modules/react-scroll-parallax/cjs/utils/index.js");
+
+var _helpers = __webpack_require__(/*! ../helpers */ "./node_modules/react-scroll-parallax/cjs/helpers/index.js");
+
+var _View = __webpack_require__(/*! ./View */ "./node_modules/react-scroll-parallax/cjs/classes/View.js");
+
+var _Scroll = __webpack_require__(/*! ./Scroll */ "./node_modules/react-scroll-parallax/cjs/classes/Scroll.js");
+
+var _Element = __webpack_require__(/*! ./Element */ "./node_modules/react-scroll-parallax/cjs/classes/Element.js");
+
+var _constants = __webpack_require__(/*! ../constants */ "./node_modules/react-scroll-parallax/cjs/constants.js");
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+/**
+ * -------------------------------------------------------
+ * Parallax Controller
+ * -------------------------------------------------------
+ *
+ * The global controller for setting up window scroll/resize
+ * listeners, managing and caching parallax element positions,
+ * determining which elements are inside the viewport based on
+ * scroll position, and then updating parallax element styles
+ * based on x/y offsets and current scroll position.
+ *
+ */
+function ParallaxController(_ref) {
+  var _ref$scrollAxis = _ref.scrollAxis,
+      scrollAxis = _ref$scrollAxis === void 0 ? _constants.VERTICAL : _ref$scrollAxis,
+      scrollContainer = _ref.scrollContainer;
+  // All parallax elements to be updated
+  var elements = [];
+  var hasScrollContainer = !!scrollContainer;
+  var viewEl = scrollContainer || window; // Scroll and View
+
+  var x = hasScrollContainer ? viewEl.scrollLeft : window.pageXOffset;
+  var y = hasScrollContainer ? viewEl.scrollTop : window.pageYOffset;
+  var scroll = new _Scroll.Scroll(x, y);
+  var view = new _View.View({
+    width: 0,
+    height: 0,
+    scrollContainer: scrollContainer
+  }); // Ticking
+
+  var ticking = false; // Passive support
+
+  var supportsPassive = (0, _utils.testForPassiveScroll)();
+
+  function _addListeners(el) {
+    el.addEventListener('scroll', _handleScroll, supportsPassive ? {
+      passive: true
+    } : false);
+    window.addEventListener('resize', _handleResize, false);
+  }
+
+  function _removeListeners(el) {
+    el.removeEventListener('scroll', _handleScroll, supportsPassive ? {
+      passive: true
+    } : false);
+    window.removeEventListener('resize', _handleResize, false);
+  }
+
+  _addListeners(viewEl);
+
+  _setViewSize();
+  /**
+   * Window scroll handler sets scroll position
+   * and then calls '_updateAllElements()'.
+   */
+
+
+  function _handleScroll() {
+    // Save current scroll
+    // Supports IE 9 and up.
+    var nx = hasScrollContainer ? viewEl.scrollLeft : window.pageXOffset;
+    var ny = hasScrollContainer ? viewEl.scrollTop : window.pageYOffset;
+    scroll.setScroll(nx, ny); // Only called if the last animation request has been
+    // completed and there are parallax elements to update
+
+    if (!ticking && elements.length > 0) {
+      ticking = true;
+      window.requestAnimationFrame(_updateAllElements);
+    }
+  }
+  /**
+   * Window resize handler. Sets the new window inner height
+   * then updates parallax element attributes and positions.
+   */
+
+
+  function _handleResize() {
+    _setViewSize();
+
+    _updateAllElements({
+      updateCache: true
+    });
+  }
+  /**
+   * Update element positions.
+   * Determines if the element is in view based on the cached
+   * attributes, if so set the elements parallax styles.
+   */
+
+
+  function _updateAllElements() {
+    var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+        updateCache = _ref2.updateCache;
+
+    elements.forEach(function (element) {
+      _updateElementPosition(element);
+
+      if (updateCache) {
+        element.setCachedAttributes(view, scroll);
+      }
+    }); // reset ticking so more animations can be called
+
+    ticking = false;
+  }
+  /**
+   * Update element positions.
+   * Determines if the element is in view based on the cached
+   * attributes, if so set the elements parallax styles.
+   */
+
+
+  function _updateElementPosition(element) {
+    if (element.props.disabled) return;
+    element.updatePosition(view, scroll);
+  }
+  /**
+   * Cache the window height.
+   */
+
+
+  function _setViewSize() {
+    if (hasScrollContainer) {
+      var _width = viewEl.offsetWidth;
+      var _height = viewEl.offsetHeight;
+      return view.setSize(_width, _height);
+    }
+
+    var html = document.documentElement;
+    var width = window.innerWidth || html.clientWidth;
+    var height = window.innerHeight || html.clientHeight;
+    return view.setSize(width, height);
+  }
+  /**
+   * -------------------------------------------------------
+   * Public methods
+   * -------------------------------------------------------
+   */
+
+  /**
+   * Gets the parallax elements in the controller
+   * @return {array} parallax elements
+   */
+
+
+  this.getElements = function () {
+    return elements;
+  };
+  /**
+   * Creates a new parallax element object with new id
+   * and options to store in the 'elements' array.
+   * @param {object} options
+   * @return {object} element
+   */
+
+
+  this.createElement = function (options) {
+    var newElement = new _Element.Element(_objectSpread({}, options, {
+      scrollAxis: scrollAxis
+    }));
+    newElement.setCachedAttributes(view, scroll);
+    elements = [].concat(_toConsumableArray(elements), [newElement]);
+
+    _updateElementPosition(newElement);
+
+    return newElement;
+  };
+  /**
+   * Remove an element by id
+   * @param {object} element
+   */
+
+
+  this.removeElementById = function (id) {
+    if (!elements) return;
+    elements = elements.filter(function (el) {
+      return el.id !== id;
+    });
+  };
+  /**
+   * Updates an existing parallax element object with new options.
+   * @param {object} element
+   * @param {object} options
+   */
+
+
+  this.updateElementPropsById = function (id, props) {
+    elements = elements.map(function (el) {
+      if (el.id === id) {
+        return el.updateProps(props);
+      }
+
+      return el;
+    });
+    this.update();
+  };
+  /**
+   * Remove element styles.
+   * @param {object} element
+   */
+
+
+  this.resetElementStyles = function (element) {
+    (0, _helpers.resetStyles)(element);
+  };
+  /**
+   * Updates all parallax element attributes and positions.
+   */
+
+
+  this.update = function () {
+    _setViewSize();
+
+    _updateAllElements({
+      updateCache: true
+    });
+  };
+
+  this.updateScrollContainer = function (el) {
+    // remove existing listeners with current el first
+    _removeListeners(viewEl);
+
+    viewEl = el;
+    hasScrollContainer = !!el;
+    view = new _View.View({
+      width: 0,
+      height: 0,
+      scrollContainer: el
+    });
+
+    _setViewSize();
+
+    _addListeners(viewEl);
+
+    _updateAllElements({
+      updateCache: true
+    });
+  };
+  /**
+   * Removes listeners, reset all styles then nullifies the global ParallaxController.
+   */
+
+
+  this.destroy = function () {
+    _removeListeners(viewEl);
+
+    elements.forEach(function (element) {
+      return (0, _helpers.resetStyles)(element);
+    });
+    elements = undefined;
+  };
+}
+/**
+ * Static method to instantiate the ParallaxController.
+ * @returns {Object} ParallaxController
+ */
+
+
+ParallaxController.init = function (options) {
+  var hasWindow = typeof window !== 'undefined';
+
+  if (!hasWindow) {
+    throw new Error('Looks like ParallaxController.init() was called on the server. This method must be called on the client.');
+  }
+
+  return new ParallaxController(options);
+};
+
+var _default = ParallaxController;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/classes/Rect.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/classes/Rect.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Rect = function Rect(el, view, scroll) {
+  _classCallCheck(this, Rect);
+
+  var rect = el.getBoundingClientRect(); // rect is based on viewport -- must adjust for relative scroll container
+
+  if (view.scrollContainer) {
+    var scrollRect = view.scrollContainer.getBoundingClientRect();
+    rect = {
+      top: rect.top - scrollRect.top,
+      right: rect.right - scrollRect.left,
+      bottom: rect.bottom - scrollRect.top,
+      left: rect.left - scrollRect.left
+    };
+  }
+
+  this.height = el.offsetHeight;
+  this.width = el.offsetWidth;
+  this.left = rect.left + scroll.x;
+  this.right = rect.right + scroll.x;
+  this.top = rect.top + scroll.y;
+  this.bottom = rect.bottom + scroll.y;
+  this.originTotalDistY = view.height + this.height;
+  this.originTotalDistX = view.width + this.width;
+};
+
+var _default = Rect;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/classes/Scroll.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/classes/Scroll.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Scroll = void 0;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var Scroll =
+/*#__PURE__*/
+function () {
+  function Scroll() {
+    _classCallCheck(this, Scroll);
+
+    this.setScroll.apply(this, arguments);
+  }
+
+  _createClass(Scroll, [{
+    key: "setScroll",
+    value: function setScroll(x, y) {
+      this.x = x;
+      this.y = y;
+      return this;
+    }
+  }]);
+
+  return Scroll;
+}();
+
+exports.Scroll = Scroll;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/classes/View.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/classes/View.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.View = void 0;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var View =
+/*#__PURE__*/
+function () {
+  function View(_ref) {
+    var width = _ref.width,
+        height = _ref.height,
+        scrollContainer = _ref.scrollContainer;
+
+    _classCallCheck(this, View);
+
+    this.scrollContainer = scrollContainer;
+    this.setSize(width, height);
+  }
+
+  _createClass(View, [{
+    key: "setSize",
+    value: function setSize(width, height) {
+      this.width = width;
+      this.height = height;
+      return this;
+    }
+  }]);
+
+  return View;
+}();
+
+exports.View = View;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/components/Parallax.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/components/Parallax.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _ParallaxController = _interopRequireDefault(__webpack_require__(/*! ../classes/ParallaxController */ "./node_modules/react-scroll-parallax/cjs/classes/ParallaxController.js"));
+
+var _withController = _interopRequireDefault(__webpack_require__(/*! ./withController */ "./node_modules/react-scroll-parallax/cjs/components/withController.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var Parallax =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Parallax, _Component);
+
+  function Parallax() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, Parallax);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Parallax)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_this), "mapRefOuter", function (ref) {
+      _this._outer = ref;
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "mapRefInner", function (ref) {
+      _this._inner = ref;
+    });
+
+    return _this;
+  }
+
+  _createClass(Parallax, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      // Make sure the provided controller is an instance of the Parallax Controller
+      var isInstance = this.controller instanceof _ParallaxController.default; // Throw if neither context or global is available
+
+      if (!this.controller && !isInstance) {
+        throw new Error("Must wrap your application's <Parallax /> components in a <ParallaxProvider />.");
+      } // create a new parallax element and save the reference
+
+
+      this.element = this.controller.createElement(this._getElementOptions());
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.disabled !== prevProps.disabled || this.props.x[0] !== prevProps.x[0] || this.props.x[1] !== prevProps.x[1] || this.props.y[0] !== prevProps.y[0] || this.props.y[1] !== prevProps.y[1]) {
+        this.controller.updateElementPropsById(this.element.id, this._getElementOptions().props);
+      } // resets element styles when disabled
+
+
+      if (this.props.disabled !== prevProps.disabled && this.props.disabled) {
+        this.controller.resetElementStyles(this.element);
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.controller.removeElementById(this.element.id);
+    }
+  }, {
+    key: "_getElementOptions",
+    value: function _getElementOptions() {
+      return {
+        elInner: this._inner,
+        elOuter: this._outer,
+        props: {
+          disabled: this.props.disabled,
+          x0: this.props.x[0],
+          x1: this.props.x[1],
+          y0: this.props.y[0],
+          y1: this.props.y[1]
+        }
+      };
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          children = _this$props.children,
+          className = _this$props.className,
+          Outer = _this$props.tagOuter,
+          Inner = _this$props.tagInner,
+          styleOuter = _this$props.styleOuter,
+          styleInner = _this$props.styleInner;
+      var rootClass = 'parallax-outer' + (className ? " ".concat(className) : '');
+      return _react.default.createElement(Outer, {
+        className: rootClass,
+        ref: this.mapRefOuter,
+        style: styleOuter
+      }, _react.default.createElement(Inner, {
+        className: "parallax-inner",
+        ref: this.mapRefInner,
+        style: styleInner
+      }, children));
+    }
+  }, {
+    key: "controller",
+    get: function get() {
+      return this.props.parallaxController;
+    }
+  }]);
+
+  return Parallax;
+}(_react.Component);
+
+_defineProperty(Parallax, "defaultProps", {
+  disabled: false,
+  tagInner: 'div',
+  tagOuter: 'div',
+  x: [0, 0],
+  y: [0, 0]
+});
+
+_defineProperty(Parallax, "propTypes", {
+  children: _propTypes.default.node,
+  className: _propTypes.default.string,
+  disabled: _propTypes.default.bool.isRequired,
+  parallaxController: _propTypes.default.object,
+  styleInner: _propTypes.default.object,
+  styleOuter: _propTypes.default.object,
+  tagInner: _propTypes.default.string.isRequired,
+  tagOuter: _propTypes.default.string.isRequired,
+  x: _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number])),
+  y: _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]))
+});
+
+var _default = (0, _withController.default)(Parallax);
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/components/ParallaxBanner.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/components/ParallaxBanner.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Parallax = _interopRequireDefault(__webpack_require__(/*! ./Parallax */ "./node_modules/react-scroll-parallax/cjs/components/Parallax.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var containerStyle = {
+  position: 'relative',
+  overflow: 'hidden',
+  width: '100%',
+  height: '50vh'
+};
+var absoluteStyle = {
+  position: 'absolute',
+  top: 0,
+  right: 0,
+  bottom: 0,
+  left: 0
+};
+
+var ParallaxBanner = function ParallaxBanner(_ref) {
+  var children = _ref.children,
+      className = _ref.className,
+      layers = _ref.layers,
+      style = _ref.style,
+      disabled = _ref.disabled;
+  return _react.default.createElement("div", {
+    style: _objectSpread({}, containerStyle, style),
+    className: 'parallax-banner' + (className ? " ".concat(className) : '')
+  }, layers.map(function (_ref2, i) {
+    var image = _ref2.image,
+        amount = _ref2.amount,
+        layerChildren = _ref2.children,
+        _ref2$expanded = _ref2.expanded,
+        expanded = _ref2$expanded === void 0 ? true : _ref2$expanded;
+    // if this is an expanded layer overwrite the top/bottom styles with negative margins
+    var expandedStyle = expanded ? {
+      top: Math.abs(amount) * 100 * -1 + '%',
+      bottom: Math.abs(amount) * 100 * -1 + '%'
+    } : {};
+    return _react.default.createElement(_Parallax.default, {
+      key: "layer-".concat(i),
+      y: [amount * -1 * 100 + '%', amount * 100 + '%'],
+      styleInner: absoluteStyle,
+      styleOuter: absoluteStyle,
+      disabled: disabled
+    }, image ? _react.default.createElement("div", {
+      className: "parallax-banner-layer-".concat(i),
+      style: _objectSpread({
+        backgroundImage: "url(".concat(image, ")"),
+        backgroundPosition: 'center',
+        backgroundSize: 'cover'
+      }, absoluteStyle, expandedStyle)
+    }) : _react.default.createElement("div", {
+      className: "parallax-banner-layer-".concat(i),
+      style: _objectSpread({}, absoluteStyle, expandedStyle)
+    }, layerChildren));
+  }), children);
+};
+
+ParallaxBanner.defaultProps = {
+  disabled: false
+};
+ParallaxBanner.propTypes = {
+  children: _propTypes.default.node,
+  className: _propTypes.default.string,
+  disabled: _propTypes.default.bool.isRequired,
+  layers: _propTypes.default.arrayOf(_propTypes.default.shape({
+    amount: _propTypes.default.number.isRequired,
+    children: _propTypes.default.oneOfType([_propTypes.default.node, _propTypes.default.func]),
+    expanded: _propTypes.default.bool,
+    image: _propTypes.default.string
+  })),
+  style: _propTypes.default.object
+};
+var _default = ParallaxBanner;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/components/ParallaxProvider.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/components/ParallaxProvider.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _ParallaxContext = _interopRequireDefault(__webpack_require__(/*! ../helpers/ParallaxContext */ "./node_modules/react-scroll-parallax/cjs/helpers/ParallaxContext.js"));
+
+var _ParallaxController = _interopRequireDefault(__webpack_require__(/*! ../classes/ParallaxController */ "./node_modules/react-scroll-parallax/cjs/classes/ParallaxController.js"));
+
+var _constants = __webpack_require__(/*! ../constants */ "./node_modules/react-scroll-parallax/cjs/constants.js");
+
+var _validHTMLElement = _interopRequireDefault(__webpack_require__(/*! ../utils/validHTMLElement */ "./node_modules/react-scroll-parallax/cjs/utils/validHTMLElement.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var createController = function createController(options) {
+  // Don't initialize on the server
+  var isServer = typeof window === 'undefined';
+
+  if (!isServer) {
+    // Must not be the server so kick it off...
+    return _ParallaxController.default.init(options);
+  }
+
+  return null;
+};
+
+var ParallaxProvider =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(ParallaxProvider, _Component);
+
+  function ParallaxProvider(props) {
+    var _this;
+
+    _classCallCheck(this, ParallaxProvider);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(ParallaxProvider).call(this, props));
+    _this.controller = createController({
+      scrollAxis: props.scrollAxis,
+      scrollContainer: props.scrollContainer
+    });
+    return _this;
+  }
+
+  _createClass(ParallaxProvider, [{
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      if (prevProps.scrollContainer !== this.props.scrollContainer) {
+        this.controller.updateScrollContainer(this.props.scrollContainer);
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.controller = this.controller.destroy();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var children = this.props.children;
+      return _react.default.createElement(_ParallaxContext.default.Provider, {
+        value: this.controller
+      }, children);
+    }
+  }]);
+
+  return ParallaxProvider;
+}(_react.Component);
+
+exports.default = ParallaxProvider;
+
+_defineProperty(ParallaxProvider, "defaultProps", {
+  scrollAxis: _constants.VERTICAL
+});
+
+_defineProperty(ParallaxProvider, "propTypes", {
+  children: _propTypes.default.node.isRequired,
+  scrollAxis: _propTypes.default.oneOf([_constants.VERTICAL, _constants.HORIZONTAL]),
+  scrollContainer: _validHTMLElement.default
+});
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/components/withController.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/components/withController.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _ParallaxContext = _interopRequireDefault(__webpack_require__(/*! ../helpers/ParallaxContext */ "./node_modules/react-scroll-parallax/cjs/helpers/ParallaxContext.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var _default = function _default(WrappedComponent) {
+  var WithController =
+  /*#__PURE__*/
+  function (_Component) {
+    _inherits(WithController, _Component);
+
+    function WithController() {
+      _classCallCheck(this, WithController);
+
+      return _possibleConstructorReturn(this, _getPrototypeOf(WithController).apply(this, arguments));
+    }
+
+    _createClass(WithController, [{
+      key: "render",
+      value: function render() {
+        var _this = this;
+
+        return _react.default.createElement(_ParallaxContext.default.Consumer, null, function (controller) {
+          return _react.default.createElement(WrappedComponent, _extends({
+            parallaxController: controller
+          }, _this.props));
+        });
+      }
+    }]);
+
+    return WithController;
+  }(_react.Component);
+
+  _defineProperty(WithController, "propTypes", {
+    parallaxController: _propTypes.default.object
+  });
+
+  return WithController;
+};
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/constants.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/constants.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.HORIZONTAL = exports.VERTICAL = void 0;
+var VERTICAL = 'vertical';
+exports.VERTICAL = VERTICAL;
+var HORIZONTAL = 'horizontal';
+exports.HORIZONTAL = HORIZONTAL;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/helpers/ParallaxContext.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/helpers/ParallaxContext.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ParallaxContext = _react.default.createContext(null);
+
+var _default = ParallaxContext;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/helpers/elementStyles.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/helpers/elementStyles.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.setParallaxStyles = setParallaxStyles;
+exports.resetStyles = resetStyles;
+
+var _getParallaxOffsets2 = __webpack_require__(/*! ./getParallaxOffsets */ "./node_modules/react-scroll-parallax/cjs/helpers/getParallaxOffsets.js");
+
+/**
+ * Takes a parallax element and set the styles based on the
+ * offsets and percent the element has moved though the viewport.
+ * @param {object} element
+ * @param {number} percentMoved
+ */
+function setParallaxStyles(elInner, offsets, percentMoved) {
+  // Get the parallax X and Y offsets
+  var _getParallaxOffsets = (0, _getParallaxOffsets2.getParallaxOffsets)(offsets, percentMoved),
+      _getParallaxOffsets$x = _getParallaxOffsets.x,
+      xv = _getParallaxOffsets$x.value,
+      xu = _getParallaxOffsets$x.unit,
+      _getParallaxOffsets$y = _getParallaxOffsets.y,
+      yv = _getParallaxOffsets$y.value,
+      yu = _getParallaxOffsets$y.unit; // Apply styles
+
+
+  elInner.style.transform = "translate3d(".concat(xv).concat(xu, ", ").concat(yv).concat(yu, ", 0)");
+}
+/**
+ * Takes a parallax element and removes parallax offset styles.
+ * @param {object} element
+ */
+
+
+function resetStyles(element) {
+  var el = element.elInner;
+  el.style.transform = '';
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/helpers/getOffsets.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/helpers/getOffsets.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getOffsets;
+
+var _index = __webpack_require__(/*! ../utils/index */ "./node_modules/react-scroll-parallax/cjs/utils/index.js");
+
+/**
+ * Takes a parallax element and parses the offset props to get the value
+ * and unit. Sets these values as offset object accessible on the element.
+ * @param {object} element
+ */
+function getOffsets(props) {
+  var y0Prop = props.y0,
+      y1Prop = props.y1,
+      x1Prop = props.x1,
+      x0Prop = props.x0;
+  var y0 = (0, _index.parseValueAndUnit)(y0Prop);
+  var y1 = (0, _index.parseValueAndUnit)(y1Prop);
+  var x0 = (0, _index.parseValueAndUnit)(x0Prop);
+  var x1 = (0, _index.parseValueAndUnit)(x1Prop);
+
+  if (x0.unit !== x1.unit || y0.unit !== y1.unit) {
+    throw new Error('Must provide matching units for the min and max offset values of each axis.');
+  }
+
+  var xUnit = x0.unit || '%';
+  var yUnit = y0.unit || '%';
+  return {
+    xUnit: xUnit,
+    yUnit: yUnit,
+    y0: y0,
+    y1: y1,
+    x0: x0,
+    x1: x1
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/helpers/getParallaxOffsets.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/helpers/getParallaxOffsets.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getParallaxOffsets = getParallaxOffsets;
+
+var _index = __webpack_require__(/*! ../utils/index */ "./node_modules/react-scroll-parallax/cjs/utils/index.js");
+
+/**
+ * Gets the parallax X and Y offsets to be applied to an element
+ * based upon the percent the element has moved in the viewport
+ * and the min/max offsets
+ * @returns {Object}
+ */
+function getParallaxOffsets(offsets, percentMoved) {
+  var y0 = offsets.y0,
+      y1 = offsets.y1,
+      x0 = offsets.x0,
+      x1 = offsets.x1;
+  var yUnit = y1.unit;
+  var xUnit = x1.unit;
+  var x = (0, _index.scaleBetween)(percentMoved, x0.value, x1.value, 0, 100);
+  var y = (0, _index.scaleBetween)(percentMoved, y0.value, y1.value, 0, 100);
+  return {
+    x: {
+      value: x,
+      unit: xUnit
+    },
+    y: {
+      value: y,
+      unit: yUnit
+    }
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/helpers/index.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/helpers/index.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "ParallaxContext", {
+  enumerable: true,
+  get: function get() {
+    return _ParallaxContext2.default;
+  }
+});
+Object.defineProperty(exports, "percentMoved", {
+  enumerable: true,
+  get: function get() {
+    return _percentMoved.percentMoved;
+  }
+});
+Object.defineProperty(exports, "setParallaxStyles", {
+  enumerable: true,
+  get: function get() {
+    return _elementStyles.setParallaxStyles;
+  }
+});
+Object.defineProperty(exports, "resetStyles", {
+  enumerable: true,
+  get: function get() {
+    return _elementStyles.resetStyles;
+  }
+});
+Object.defineProperty(exports, "getParallaxOffsets", {
+  enumerable: true,
+  get: function get() {
+    return _getParallaxOffsets.getParallaxOffsets;
+  }
+});
+Object.defineProperty(exports, "isElementInView", {
+  enumerable: true,
+  get: function get() {
+    return _isElementInView.isElementInView;
+  }
+});
+Object.defineProperty(exports, "getOffsets", {
+  enumerable: true,
+  get: function get() {
+    return _getOffsets2.default;
+  }
+});
+
+var _ParallaxContext2 = _interopRequireDefault(__webpack_require__(/*! ./ParallaxContext */ "./node_modules/react-scroll-parallax/cjs/helpers/ParallaxContext.js"));
+
+var _percentMoved = __webpack_require__(/*! ./percentMoved */ "./node_modules/react-scroll-parallax/cjs/helpers/percentMoved.js");
+
+var _elementStyles = __webpack_require__(/*! ./elementStyles */ "./node_modules/react-scroll-parallax/cjs/helpers/elementStyles.js");
+
+var _getParallaxOffsets = __webpack_require__(/*! ./getParallaxOffsets */ "./node_modules/react-scroll-parallax/cjs/helpers/getParallaxOffsets.js");
+
+var _isElementInView = __webpack_require__(/*! ./isElementInView */ "./node_modules/react-scroll-parallax/cjs/helpers/isElementInView.js");
+
+var _getOffsets2 = _interopRequireDefault(__webpack_require__(/*! ./getOffsets */ "./node_modules/react-scroll-parallax/cjs/helpers/getOffsets.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/helpers/isElementInView.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/helpers/isElementInView.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isElementInView = isElementInView;
+
+/**
+ * Takes two values (start, end) and returns whether it is within
+ * the view size based on the cached position adjusted for current scroll.
+ * Only along a single dimension <--- [ --- a --- b --- ] -->
+ * @param {number} a - top/left
+ * @param {number} b - bottom/right
+ * @param {number} size - width/height
+ * @param {number} scroll - x/y
+ * @return {boolean} isInView
+ */
+function isElementInView(a, b, size, scroll) {
+  var ax = a - scroll;
+  var bx = b - scroll;
+  var aView = ax >= 0 && ax <= size;
+  var bInView = bx >= 0 && bx <= size;
+  var abCovering = ax <= 0 && bx >= size;
+  var isInView = aView || bInView || abCovering;
+  return isInView;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/helpers/percentMoved.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/helpers/percentMoved.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.percentMoved = percentMoved;
+
+/**
+ * Returns the percent (0 - 100) moved based on position in the viewport
+ * @param {number} a - the start value from cache
+ * @param {number} totalDist - total dist the element has to move to be 100% complete (view width/height + element width/height)
+ * @param {number} size - width/height of view
+ * @param {number} scroll - current scroll position x/y
+ * @return {number} percent moved
+ */
+function percentMoved(a, totalDist, size, scroll) {
+  // adjust cached value
+  var ax = a - scroll; // Percent the element has moved based on current and total distance to move
+
+  var percent = (ax * -1 + size) / totalDist * 100;
+  return percent;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/index.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/index.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "withController", {
+  enumerable: true,
+  get: function get() {
+    return _withController2.default;
+  }
+});
+Object.defineProperty(exports, "Parallax", {
+  enumerable: true,
+  get: function get() {
+    return _Parallax2.default;
+  }
+});
+Object.defineProperty(exports, "ParallaxProvider", {
+  enumerable: true,
+  get: function get() {
+    return _ParallaxProvider2.default;
+  }
+});
+Object.defineProperty(exports, "ParallaxBanner", {
+  enumerable: true,
+  get: function get() {
+    return _ParallaxBanner2.default;
+  }
+});
+
+var _withController2 = _interopRequireDefault(__webpack_require__(/*! ./components/withController */ "./node_modules/react-scroll-parallax/cjs/components/withController.js"));
+
+var _Parallax2 = _interopRequireDefault(__webpack_require__(/*! ./components/Parallax */ "./node_modules/react-scroll-parallax/cjs/components/Parallax.js"));
+
+var _ParallaxProvider2 = _interopRequireDefault(__webpack_require__(/*! ./components/ParallaxProvider */ "./node_modules/react-scroll-parallax/cjs/components/ParallaxProvider.js"));
+
+var _ParallaxBanner2 = _interopRequireDefault(__webpack_require__(/*! ./components/ParallaxBanner */ "./node_modules/react-scroll-parallax/cjs/components/ParallaxBanner.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/utils/createId.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/utils/createId.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.createId = createId;
+
+/**
+ * Creates a unique id to distinguish parallax elements.
+ * @return {Number}
+ */
+var id = 0;
+
+function createId() {
+  ++id;
+  return id;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/utils/index.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/utils/index.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "parseValueAndUnit", {
+  enumerable: true,
+  get: function get() {
+    return _parseValueAndUnit2.default;
+  }
+});
+Object.defineProperty(exports, "scaleBetween", {
+  enumerable: true,
+  get: function get() {
+    return _scaleBetween2.default;
+  }
+});
+Object.defineProperty(exports, "testForPassiveScroll", {
+  enumerable: true,
+  get: function get() {
+    return _testForPassiveScroll2.default;
+  }
+});
+Object.defineProperty(exports, "createId", {
+  enumerable: true,
+  get: function get() {
+    return _createId.createId;
+  }
+});
+
+var _parseValueAndUnit2 = _interopRequireDefault(__webpack_require__(/*! ./parseValueAndUnit */ "./node_modules/react-scroll-parallax/cjs/utils/parseValueAndUnit.js"));
+
+var _scaleBetween2 = _interopRequireDefault(__webpack_require__(/*! ./scaleBetween */ "./node_modules/react-scroll-parallax/cjs/utils/scaleBetween.js"));
+
+var _testForPassiveScroll2 = _interopRequireDefault(__webpack_require__(/*! ./testForPassiveScroll */ "./node_modules/react-scroll-parallax/cjs/utils/testForPassiveScroll.js"));
+
+var _createId = __webpack_require__(/*! ./createId */ "./node_modules/react-scroll-parallax/cjs/utils/createId.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/utils/parseValueAndUnit.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/utils/parseValueAndUnit.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = parseValueAndUnit;
+
+/**
+ * Determines the unit of a string and parses the value
+ *
+ * @param {string} str
+ * @param {object} out
+ * @return {object} The parsed value and the unit if any
+ */
+function parseValueAndUnit(str) {
+  var out = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {
+    value: 0,
+    unit: 'px'
+  };
+  var isValid = typeof str === 'number' || typeof str === 'string';
+
+  if (!isValid) {
+    throw new Error('Invalid value provided. Must provide a value as a string or number');
+  }
+
+  str = String(str);
+  out.value = parseFloat(str, 10);
+  out.unit = str.match(/[\d.\-\+]*\s*(.*)/)[1] || '%'; // default to percent
+
+  var validUnits = ['px', '%'];
+  var isValidUnit = validUnits.find(function (unit) {
+    return unit === out.unit;
+  });
+
+  if (!isValidUnit) {
+    throw new Error('Invalid unit provided. Must provide a unit of px in or %');
+  }
+
+  return out;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/utils/scaleBetween.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/utils/scaleBetween.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = scaleBetween;
+
+// Scale between AKA normalize
+function scaleBetween(value, newMin, newMax, oldMin, oldMax) {
+  return (newMax - newMin) * (value - oldMin) / (oldMax - oldMin) + newMin;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/utils/testForPassiveScroll.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/utils/testForPassiveScroll.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = testForPassiveScroll;
+
+function testForPassiveScroll() {
+  var supportsPassiveOption = false;
+
+  try {
+    var opts = Object.defineProperty({}, 'passive', {
+      get: function get() {
+        supportsPassiveOption = true;
+      }
+    });
+    window.addEventListener('test', null, opts);
+    window.removeEventListener('test', null, opts);
+  } catch (e) {}
+
+  return supportsPassiveOption;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-scroll-parallax/cjs/utils/validHTMLElement.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/react-scroll-parallax/cjs/utils/validHTMLElement.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = validHTMLElement;
+
+function validHTMLElement(props, propName) {
+  var componentName = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'ANONYMOUS';
+
+  if (typeof window === 'undefined') {
+    return null;
+  }
+
+  if (props[propName]) {
+    var value = props[propName];
+    var isValid = value instanceof window.Element;
+
+    if (!isValid) {
+      return new Error("Prop name \"".concat(propName, "\" in <").concat(componentName, "> must be an HTML DOM element."));
+    }
+  }
+
+  return null;
+}
 
 /***/ }),
 
@@ -4746,40 +7607,87 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Head */ "./components/Head.jsx");
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.jsx");
-/* harmony import */ var _components_BigVideo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/BigVideo */ "./components/BigVideo.jsx");
-var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\hello-next\\pages\\index.js";
+/* harmony import */ var _components_BigVideo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/BigVideo */ "./components/BigVideo.jsx");
+/* harmony import */ var react_scroll_parallax__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-scroll-parallax */ "./node_modules/react-scroll-parallax/cjs/index.js");
+/* harmony import */ var react_scroll_parallax__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_scroll_parallax__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/About */ "./components/About.jsx");
+/* harmony import */ var _components_Founders__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Founders */ "./components/Founders.jsx");
+var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\pages\\index.js";
+
+
+
 
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3022280010",
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_scroll_parallax__WEBPACK_IMPORTED_MODULE_5__["ParallaxProvider"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3022280010",
+    id: "335747078",
     __self: this
-  }, "body{margin:0;background:#eee;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxoZWxsby1uZXh0XFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTStCLEFBRzhCLFNBQ00sZ0JBQ25CIiwiZmlsZSI6IkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxoZWxsby1uZXh0XFxwYWdlc1xcaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICcuLi9jb21wb25lbnRzL0hlYWQnO1xyXG5pbXBvcnQgTmF2YmFyIGZyb20gJy4uL2NvbXBvbmVudHMvTmF2YmFyJztcclxuaW1wb3J0IEJpZ1ZpZGVvIGZyb20gJy4uL2NvbXBvbmVudHMvQmlnVmlkZW8nO1xyXG5leHBvcnQgZGVmYXVsdCAoKSA9PiB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIDxzdHlsZSBnbG9iYWwganN4PntgXHJcbiAgICAgICAgICAgICAgICBib2R5IHtcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDojZWVlO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgICA8SGVhZC8+XHJcbiAgICAgICAgICAgIDxOYXZiYXIgLz5cclxuICAgICAgICAgICAgPEJpZ1ZpZGVvIC8+XHJcbiAgICAgICAgPC9kaXY+KTtcclxufVxyXG4iXX0= */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\hello-next\\pages\\index.js */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Head__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "body{margin:0;background:#eee;font-family:'Barlow',sans-serif;font-weight:200;}h1{font-family:'Barlow',sans-serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWljaGFlbCBCcmFubmVuXFxEZXNrdG9wXFxTY3JpYmUtU2l0ZVxccGFnZXNcXGluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVMrQixBQUc4QixBQU13QixTQUxsQixnQkFDa0IsT0FLckMseUJBSm1CLGdCQUNuQiIsImZpbGUiOiJDOlxcVXNlcnNcXE1pY2hhZWwgQnJhbm5lblxcRGVza3RvcFxcU2NyaWJlLVNpdGVcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJy4uL2NvbXBvbmVudHMvSGVhZCc7XHJcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi4vY29tcG9uZW50cy9OYXZiYXInO1xyXG5pbXBvcnQgQmlnVmlkZW8gZnJvbSAnLi4vY29tcG9uZW50cy9CaWdWaWRlbyc7XHJcbmltcG9ydCB7IFBhcmFsbGF4UHJvdmlkZXIgfSBmcm9tICdyZWFjdC1zY3JvbGwtcGFyYWxsYXgnO1xyXG5pbXBvcnQgQWJvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9BYm91dCc7XHJcbmltcG9ydCBGb3VuZGVycyBmcm9tICcuLi9jb21wb25lbnRzL0ZvdW5kZXJzJztcclxuZXhwb3J0IGRlZmF1bHQgKCkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8UGFyYWxsYXhQcm92aWRlcj5cclxuICAgICAgICAgICAgPHN0eWxlIGdsb2JhbCBqc3g+e2BcclxuICAgICAgICAgICAgICAgIGJvZHkge1xyXG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiNlZWU7XHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdCYXJsb3cnLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OjIwMDtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgIGgxIHtcclxuICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseTogJ0JhcmxvdycsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICAgIDxIZWFkLz5cclxuICAgICAgICAgICAgPE5hdmJhciAvPlxyXG4gICAgICAgICAgICA8ZGl2IHN0eWxlPXt7bWFyZ2luVG9wOi0xNTB9fT5cclxuICAgICAgICAgICAgICAgIDxCaWdWaWRlbyB2aWRlb1NyYz17XCIvc3RhdGljL0JsdWUgU2t5IFZpZGVvXzEubXA0XCJ9IGluZGV4PXswfSAvPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPEFib3V0IC8+XHJcbiAgICAgICAgICAgIDxCaWdWaWRlbyB2aWRlb1NyYz17XCIvc3RhdGljL0JsdWUgU2t5IFZpZGVvXzIubXA0XCJ9IGluZGV4PXstMX0gaGVpZ2h0PXsyMDB9IC8+XHJcbiAgICAgICAgICAgIDxGb3VuZGVycyAvPlxyXG4gICAgICAgICAgICA8QmlnVmlkZW8gdmlkZW9TcmM9e1wiL3N0YXRpYy9CbHVlIFNreSBWaWRlb18xLm1wNFwifSBpbmRleD17MH0vPlxyXG5cclxuICAgICAgICA8L1BhcmFsbGF4UHJvdmlkZXI+KTtcclxufVxyXG4iXX0= */\n/*@ sourceURL=C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\pages\\index.js */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Head__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 21
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 22
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_BigVideo__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    style: {
+      marginTop: -150
+    },
+    className: "jsx-335747078",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_BigVideo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    videoSrc: "/static/Blue Sky Video_1.mp4",
+    index: 0,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_About__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_BigVideo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    videoSrc: "/static/Blue Sky Video_2.mp4",
+    index: -1,
+    height: 200,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Founders__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_BigVideo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    videoSrc: "/static/Blue Sky Video_1.mp4",
+    index: 0,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
     },
     __self: this
   }));
@@ -4788,13 +7696,13 @@ var _jsxFileName = "C:\\Users\\Michael Brannen\\Desktop\\hello-next\\pages\\inde
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5Chello-next%5Cpages%5Cindex.js ***!
-  \*******************************************************************************************************************************************/
+/*!********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5CScribe-Site%5Cpages%5Cindex.js ***!
+  \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5Chello-next%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5Chello-next%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5CScribe-Site%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CMichael%20Brannen%5CDesktop%5CScribe-Site%5Cpages%5Cindex.js!./");
 
 
 /***/ }),

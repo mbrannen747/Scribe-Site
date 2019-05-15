@@ -8,6 +8,8 @@ export default () => {
                 height:73.65px;
                 top:0;
                 background:#fff;
+                z-index: 10101010;
+                ${styleConstants.shadow}
             }
             .navbar-container {
                 ${styleConstants.containerMargin}
