@@ -3,7 +3,7 @@ import Section from './Section';
 import Row from './Row';
 import Col from './Col';
 export default () => {
-    return <div className="product">
+    return <Section>
         <style jsx>{`
             #our-product {
                 position:relative;
@@ -11,8 +11,10 @@ export default () => {
                 visibility:hidden;
                 top: -101px;
             }
+            .col-image {
+                width:100%;
+            }
         `}</style>
-        <Section>
         <a id="our-product"></a>
             <h1>OUR PRODUCT</h1>
             <Row>
@@ -26,10 +28,12 @@ export default () => {
                         <li>More Computing Power and Memory</li>
                     </ul>
                 </Col>
+                <Col>
+                <img src="/static/logger_model2.jpg" className="col-image" />
+                </Col>
                 <Col last={true}>
                     <img src="/static/logger.png" className="col-image" />
                 </Col>
             </Row>
         </Section>
-    </div>
 }

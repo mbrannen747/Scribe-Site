@@ -4,9 +4,10 @@ export default () => {
         <style jsx>{`
             .footer {
                 width:100%;
-                height:100.65px;
+                height:60px;
                 background:#fff;
                 z-index: 10101010;
+                position:absolute;
                 ${styleConstants.shadow}
             }
             .footer-container {

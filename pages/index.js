@@ -31,7 +31,7 @@ export default () => {
             <About />
             <BigVideo videoSrc={"/static/Blue Sky Video_2.mp4"} index={-1} height={200} />
             <Founders />
-            <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"} index={0}/>
+            <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"} index={0} marginTop={-5}/>
             <Product />    
             <Footer />
         </ParallaxProvider>);

@@ -2,13 +2,13 @@ import * as styleConstants from  '../constants/StyleConstants';
 import 'react';
 export default class Section extends React.Component{
     render(){
-        return <div className="section-container">
+        return <div id={this.props.id} className="section-container">
         <style jsx>{`
             .section-container{
                 background:${styleConstants.colors.colorWhite};
                 width:100%;
                 z-index:10;
-                position: absolute;
+                position: relative;
                 ${styleConstants.containerPadding}
                 ${styleConstants.shadow}
             }

@@ -3,7 +3,7 @@ import Section from './Section';
 import Col from './Col'
 import Row from './Row'
 export default () => {
-    return <div>
+    return <Section>
         <style jsx>{`
             #our-founders {
                 position:relative;
@@ -15,7 +15,6 @@ export default () => {
                 width:100%;
             }
         `}</style>
-        <Section>
         <a id="our-founders"></a>
         <h1>FOUNDERS</h1>
             <Row>
@@ -37,5 +36,4 @@ export default () => {
             </Row>
                 
         </Section>
-    </div>
 }
