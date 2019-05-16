@@ -8,6 +8,9 @@ export default () => {
     return (
         <ParallaxProvider>
             <style global jsx>{`
+                html {
+                    scroll-behavior: smooth;
+                }
                 body {
                     margin: 0;
                     background:#eee;

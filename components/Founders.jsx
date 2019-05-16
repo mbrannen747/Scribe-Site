@@ -3,16 +3,20 @@ import Section from './Section';
 import Col from './Col'
 import Row from './Row'
 export default () => {
-    return <div id="about-us">
+    return <div>
         <style jsx>{`
-            #about-us {
-                margin-bottom:300px;
+            #our-founders {
+                position:relative;
+                display:block;
+                visibility:hidden;
+                top: -101px;
             }
             .col-image {
                 width:100%;
             }
         `}</style>
         <Section>
+        <a id="our-founders"></a>
         <h1>FOUNDERS</h1>
             <Row>
                 <Col first={true}>

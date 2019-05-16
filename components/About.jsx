@@ -3,16 +3,23 @@ import Section from './Section';
 import Col from './Col'
 import Row from './Row'
 export default () => {
-    return <div id="about-us">
+    return <div id="about-us-container">
         <style jsx>{`
-            #about-us {
+            #about-us-container {
                 margin-bottom:300px;
+            }
+            #about-us {
+                position:relative;
+                display:block;
+                visibility:hidden;
+                top: -101px;
             }
             .col-image {
                 width:100%;
             }
         `}</style>
         <Section>
+            <a id="about-us"></a>
             <h1>ABOUT US</h1>
             <Row>
                 <Col first={true}>
@@ -26,7 +33,7 @@ export default () => {
                     </p>
                 </Col>
                 <Col last={true}>
-                    <img src="/static/scribe_team.jpg" className="col-image" />
+                    <img src="/static/scribe_team2.jpg" className="col-image" />
                 </Col>
             </Row>
                 
