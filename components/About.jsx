@@ -26,7 +26,7 @@ export default () => {
                     </p>
                 </Col>
                 <Col last={true}>
-                    <img src="/static/logger.png" className="col-image" />
+                    <img src="/static/scribe_team.jpg" className="col-image" />
                 </Col>
             </Row>
                 

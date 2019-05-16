@@ -32,7 +32,7 @@ export default () => {
             }
         `}</style>
         <div className="navbar-container">
-            <img className="logo" src="/static/logo.png"/>
+            <a href="#"><img className="logo" src="/static/logo.png"/></a>
             <nav>
                 <a href="#about-us">About Us</a>
                 <a href="#our-founders">Our Founders</a>
