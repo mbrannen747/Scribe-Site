@@ -6655,7 +6655,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "C:\\Users\\Michael Brannen\\Desktop\\Scribe-Site\\.next");
+      source_map_support_1.rewriteStacktrace(error, "C:\\Users\\lp800\\OneDrive\\Desktop\\School Stuff\\Q14\\Enterprise 3 - USTAR\\Scribe\\Sribe Website\\Scribe-Site\\.next");
       return error;
     }
   };
