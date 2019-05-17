@@ -12,9 +12,7 @@ app.prepare()
   const server = express()
   server.use(bodyParser.json());
   server.use(bodyParser.urlencoded({ extended: true }));
-  server.get('*', (req, res) => {
-    return handle(req, res)
-  })
+
   server.post('/mail', async (req,res) => {
     try {
       var data = req.body;
@@ -45,6 +43,9 @@ app.prepare()
       res.send({"message":"failed"})
     }
   });
+  server.get('*', (req, res) => {
+    return handle(req, res)
+  })
   server.listen(3000, (err) => {
     if (err) throw err
     console.log('> Ready on http://localhost:3000')
