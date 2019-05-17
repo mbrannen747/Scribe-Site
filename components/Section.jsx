@@ -9,6 +9,7 @@ export default class Section extends React.Component{
                 width:100%;
                 z-index:10;
                 position: relative;
+                transform:translateY(-70px);
                 ${styleConstants.containerPadding}
                 ${styleConstants.shadow}
             }
