@@ -37,10 +37,10 @@ app.prepare()
       // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
       
       transporter.close();
-      res.send({"message":"sent"})
+      res.redirect('/')
     } catch(ex){
       console.log(ex);
-      res.send({"message":"failed"})
+      res.redirect('/');
     }
   });
   server.get('*', (req, res) => {
