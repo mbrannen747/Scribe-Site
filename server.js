@@ -1,30 +1,58 @@
-// This file doesn't go through babel or webpack transformation.
-// Make sure the syntax and sources this file requires are compatible with the current node version you are running
-// See https://github.com/zeit/next.js/issues/1245 for discussions on Universal Webpack or universal Babel
-const { createServer } = require('http');
-const { parse } = require('url');
-const next = require('next');
+const express = require('express')
+const next = require('next')
+const bodyParser = require('body-parser')
+const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
+const handle = app.getRequestHandler()
+"use strict";
+const nodemailer = require("nodemailer");
 
-const dev = process.env.NODE_ENV !== 'production';
-const app = next({ dev });
-const handle = app.getRequestHandler();
-
-app.prepare().then(() => {
-  createServer((req, res) => {
-    // Be sure to pass `true` as the second argument to `url.parse`.
-    // This tells it to parse the query portion of the URL.
-    const parsedUrl = parse(req.url, true);
-    const { pathname, query } = parsedUrl;
-
-    if (pathname === '/a') {
-      app.render(req, res, '/b', query);
-    } else if (pathname === '/b') {
-      app.render(req, res, '/a', query);
-    } else {
-      handle(req, res, parsedUrl);
+app.prepare()
+.then(() => {
+  const server = express()
+  server.use(bodyParser.json());
+  server.use(bodyParser.urlencoded({ extended: true }));
+  server.get('*', (req, res) => {
+    return handle(req, res)
+  })
+  server.post('/mail', async (req,res) => {
+    try {
+      var data = req.body;
+      // create reusable transporter object using the default SMTP transport
+      let transporter = nodemailer.createTransport({
+        service: "Gmail",
+        auth: {
+          user: process.env.ENV_GMAIL_USER,
+          pass: process.env.ENV_GMAIL_PASS
+        }
+      });
+    
+      // send mail with defined transport object
+      let info = await transporter.sendMail({
+        from: `"${data.name}" <${data.email}>`, // sender address
+        // to: process.env.ENV_GMAIL_USER, // list of receivers
+        to: process.env.ENV_GMAIL_USER,
+        subject: "Scribe Sciences Website Contact", // Subject line
+        html: `<b>The Following message has been sent from ScribeLogger.com: </b><p>${data.message}</p>` // html body
+      });
+      console.log("Message sent: %s", info.messageId);
+      // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+      
+      transporter.close();
+      res.send({"message":"sent"})
+    } catch(ex){
+      console.log(ex);
+      res.send({"message":"failed"})
     }
-  }).listen(3000, err => {
-    if (err) throw err;
-    console.log('> Ready on http://localhost:3000');
   });
-});
+  server.listen(3000, (err) => {
+    if (err) throw err
+    console.log('> Ready on http://localhost:3000')
+  })
+})
+.catch((ex) => {
+  console.error(ex.stack)
+  process.exit(1)
+})
+
+
