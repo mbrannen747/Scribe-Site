@@ -19,7 +19,7 @@ export default () => {
         
             <h1>CONTACT US</h1>
             <Row>
-                <form action="/mail" method="POST">
+                <form action="/mail" method="post">
                 <input type="text" name="name" placeholder="Your Name"></input><br></br>
                 <input type="email" name="email" placeholder="Email Address"></input><br></br>
                 <textarea name="message" placeholder="Message"></textarea><br></br>
