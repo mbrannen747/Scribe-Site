@@ -15,12 +15,17 @@ export default () => {
             .footer-container {
                 ${styleConstants.containerMargin}
             }
-            
+            .footer-logo {
+                height: 230px;
+                width: 230px;
+            }
             
         `}</style>
         <div className="footer-container">
         <Row>
-            <Col><p>Scribe Sciences &#169;2019 | Facebook | Twitter | LinkedIn | Contact Us</p></Col>
+            <Col><img src="/static/topDownLogo.png" className="footer-logo"></img>
+            <p>Scribe Sciences &#169;2019</p>
+            </Col>
             <Col><ContactUs /></Col>
         </Row>
         

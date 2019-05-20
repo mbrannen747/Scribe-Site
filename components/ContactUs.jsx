@@ -1,5 +1,4 @@
 import * as styleConstants from  '../constants/StyleConstants';
-import Section from './Section';
 import Row from './Row'
 export default () => {
     return <div className="contactUs">
@@ -12,8 +11,35 @@ export default () => {
                 visibility:hidden;
                 top: -101px;
             }
+            form {
+                ${styleConstants.fontNormal};
+                width:75%;
+            }
+            input[type=text] {
+                ${styleConstants.fontNormal};
+                width: 100%;
+                margin: 5px;
+                padding: 5px;
+            }
+            input[type=email] {
+                ${styleConstants.fontNormal};
+                width: 100%;
+                margin: 5px;
+                padding: 5px;
+            }
             textarea {
-                width:400px; height:50px;
+                width:100%; height:50px;
+                ${styleConstants.fontNormal};
+                margin: 5px;
+                padding: 5px;
+            }
+            input[type=submit] {
+                background: ${styleConstants.colors.colorPrimaryVeryDark};
+                color: ${styleConstants.colors.colorWhite};
+                margin-bottom: 25px;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border: none;
             }
         `}</style>
             <a id="contact"></a>
