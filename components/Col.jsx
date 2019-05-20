@@ -20,6 +20,11 @@ export default class Col extends React.Component{
                 flex:1;
                 ${padding}
             }
+            @media (max-width:800px) {
+                .col {
+                    display:block;
+                } 
+            }
         `}</style>
             {this.props.children}
     </div>

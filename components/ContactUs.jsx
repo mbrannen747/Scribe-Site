@@ -16,7 +16,7 @@ export default () => {
                 width:400px; height:50px;
             }
         `}</style>
-        
+            <a id="contact"></a>
             <h1>CONTACT US</h1>
             <Row>
                 <form action="/mail" method="post">
