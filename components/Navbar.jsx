@@ -54,12 +54,24 @@ export default () => {
                 -webkit-transform: scaleX(1);
                 transform: scaleX(1);
             }
-            @media(max-width:800px){
+            @media(max-width:960px){
                 nav {
                     padding-top:35px;
                 }
                 nav a {
+                    margin:0 10px;
                     ${styleConstants.headingSize2}
+                }
+            }
+            @media(max-width:720px){
+                nav a {
+                    margin:0 5px;
+                    ${styleConstants.headingSize3}
+                }
+            }
+            @media(max-width:600px){
+                nav a {
+                    display:none;
                 }
             }
         `}</style>

@@ -25,14 +25,15 @@ export default () => {
              `}</style>
             <Head/>
             <Navbar />
-            <div style={{marginTop:-150}}>
-                <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"} index={0} marginTop={-5} />
+            <div style={{marginTop:"126.6px"}}>
+                <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"}/>
             </div>
             <About />
-            <BigVideo videoSrc={"/static/Blue Sky Video_2.mp4"} index={-1} height={200} marginTop={0}/>
+            <BigVideo videoSrc={"/static/Blue Sky Video_2.mp4"}/>
             <Product />    
-            <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"} index={0} marginTop={-5}/>
+            <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"}/>
             <Founders />
+            <BigVideo videoSrc={"/static/Blue Sky Video_2.mp4"}/>
             <Footer />
         </ParallaxProvider>);
 }

@@ -14,6 +14,11 @@ export default () => {
             .col-image {
                 width:100%;
             }
+            @media (max-width:800px) {
+                .col-image {
+                    width:50%;
+                }
+            }
         `}</style>
         <a id="our-founders"></a>
         <h1>FOUNDERS</h1>

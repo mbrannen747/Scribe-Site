@@ -22,7 +22,7 @@ export default class Col extends React.Component{
             }
             @media (max-width:800px) {
                 .col {
-                    display:block;
+                    padding:0 !important;
                 } 
             }
         `}</style>

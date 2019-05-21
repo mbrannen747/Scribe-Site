@@ -7,6 +7,11 @@ export default class Row extends React.Component{
             .row {
                 display:flex;
             }
+            @media (max-width:800px) {
+                .row {
+                    display:block;
+                } 
+            }
         `}</style>
             {this.props.children}
     </div>

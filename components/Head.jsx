@@ -5,5 +5,6 @@ export default ({title}) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="https://fonts.googleapis.com/css?family=Barlow:200,500" rel="stylesheet"></link>
         <link rel="icon" type="image/png"  href="/static/favicon.png"></link>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"></meta> 
     </Head>
 }
