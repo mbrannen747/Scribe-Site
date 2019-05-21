@@ -36,7 +36,6 @@ export default () => {
             input[type=submit] {
                 background: ${styleConstants.colors.colorPrimaryVeryDark};
                 color: ${styleConstants.colors.colorWhite};
-                margin-bottom: 25px;
                 margin-left: 5px;
                 padding: 10px 15px;
                 border: none;

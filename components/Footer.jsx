@@ -18,17 +18,21 @@ export default () => {
             .footer-logo {
                 height: 230px;
                 width: 230px;
+                display:block;
+                margin: 25px auto 0 auto;
             }
             
         `}</style>
         <div className="footer-container">
         <Row>
-            <Col><img src="/static/topDownLogo.png" className="footer-logo"></img>
-            <p>Scribe Sciences &#169;2019</p>
+            <Col>
+                <img src="/static/topDownLogo.png" className="footer-logo"></img>
             </Col>
-            <Col><ContactUs /></Col>
+            <Col>
+                <ContactUs />
+            </Col>
         </Row>
-        
+        <p style={{textAlign:"center"}}>© 2018 Scribe Sciences. All Rights Reserved.</p>
         </div>
     </div>
 }

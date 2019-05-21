@@ -26,7 +26,7 @@ export default () => {
             <Head/>
             <Navbar />
             <div style={{marginTop:"126.6px"}}>
-                <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"}/>
+                <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"} text="Effortless, Wireless, Realtime Datalogging" />
             </div>
             <About />
             <BigVideo videoSrc={"/static/Blue Sky Video_2.mp4"}/>
