@@ -50,7 +50,7 @@ export default () => {
                     window.onload = (event) => {
                         setTimeout(function(){
                             document.getElementsByTagName("body")[0].style.overflow = "unset";
-                        },250);
+                        },1000);
                         
                     };
                     `
