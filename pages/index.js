@@ -48,7 +48,10 @@ export default () => {
                 dangerouslySetInnerHTML={{ __html:
                     `
                     window.onload = (event) => {
-                        document.getElementsByTagName("body")[0].style.overflow = "unset";
+                        setTimeout(function(){
+                            document.getElementsByTagName("body")[0].style.overflow = "unset";
+                        },250);
+                        
                     };
                     `
                 }}
