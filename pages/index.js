@@ -24,6 +24,7 @@ export default () => {
                     font-family: 'Barlow', sans-serif;
                     font-weight:200;
                     height:100%;
+                    overflow:hidden;
                 }
                 h1,h2 {
                     font-family: 'Barlow', sans-serif;
@@ -43,5 +44,14 @@ export default () => {
             <Founders />
             <BigVideo imageSrc={""}/>
             <Footer />
+            <script
+                dangerouslySetInnerHTML={{ __html:
+                    `
+                    window.onload = (event) => {
+                        document.getElementsByTagName("body")[0].style.overflow = "unset";
+                    };
+                    `
+                }}
+            />
         </ParallaxProvider>);
 }
