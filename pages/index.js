@@ -40,7 +40,7 @@ export default () => {
             <Features />    
             <BigVideo videoSrc={"/static/airplane.mp4"}/>
             <About />
-            <BigVideo videoSrc={"/static/mining.mp4"}/>
+            <BigVideo imageSrc={"/static/balloons.jpg"}/>
             <Founders />
             <BigVideo imageSrc={""}/>
             <Footer />
