@@ -78,9 +78,10 @@ export default () => {
         <div className="navbar-container">
             <a href="#"><img className="logo" src="/static/logo.png"/></a>
             <nav>
-                <a href="#about-us">About Us</a>
-                <a href="#our-product">Our Product</a>
-                <a href="#our-founders">Our Founders</a>
+                <a href="#product">Product</a>
+                <a href="#features">Features</a>
+                <a href="#about-us">About</a>
+                <a href="#founders">Founders</a>
                 <a href="#contact">Contact</a>
             </nav>
         </div>

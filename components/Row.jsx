@@ -9,6 +9,11 @@ export default class Row extends React.Component{
             }
             @media (max-width:800px) {
                 .row {
+                    ${this.props.shrinkTo2ColsMobile ? `flex-wrap:wrap;` : `display:block;`}
+                }
+            }
+            @media (max-width:575px) {
+                .row {
                     display:block;
                 } 
             }

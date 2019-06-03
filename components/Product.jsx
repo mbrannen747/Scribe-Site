@@ -5,7 +5,7 @@ import Col from './Col';
 export default () => {
     return <Section>
         <style jsx>{`
-            #our-product {
+            #product {
                 position:relative;
                 display:block;
                 visibility:hidden;
@@ -15,18 +15,19 @@ export default () => {
                 width:100%;
             }
         `}</style>
-        <a id="our-product"></a>
-            <h1>OUR PRODUCT</h1>
+        <a id="product"></a>
+            <h1>PRODUCT</h1>
             <Row>
                 <Col first={true}>
-                <h2> Scribe Datalogger</h2>
-                    <ul>
-                        <li>Cloud Based Services</li>
-                        <li>Real Time Visualization Tools</li>
-                        <li>Easy to Use</li>
-                        <li>Low Cost</li>
-                        <li>More Computing Power and Memory</li>
-                    </ul>
+                <h2> SCRIBE DATALOGGER</h2>
+                    <p>
+                        The Scribe Datalogger is an easy to use, universal logger designed for scientific and 
+                        industrial markets, offers real-time data displays, wireless connectivity, cloud data storage, 
+                        and big data applications. Highly adaptable to meet any measurement need including scientific, 
+                        industrial or military applications. Measurement protocols include but not limited to: analog, 
+                        pulse, bridge, SDI-12, and serial protocols. Communications for data transfers and remote 
+                        monitoring can be achieved through radio, internet, cellular or satellite. Programmable via Python.
+                    </p>
                 </Col>
                 <Col>
                 <img src="/static/logger_model2.jpg" className="col-image" />

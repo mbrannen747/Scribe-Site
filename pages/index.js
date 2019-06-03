@@ -6,6 +6,7 @@ import About from '../components/About';
 import Founders from '../components/Founders';
 import Product from '../components/Product';
 import Footer from '../components/Footer';
+import Features from '../components/Features';
 export default () => {
     return (
         <ParallaxProvider>
@@ -28,12 +29,14 @@ export default () => {
             <div style={{marginTop:"126.6px"}}>
                 <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"} text="Effortless, Wireless, Realtime Datalogging" />
             </div>
-            <About />
-            <BigVideo videoSrc={"/static/Blue Sky Video_2.mp4"}/>
             <Product />    
-            <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"}/>
+            <BigVideo imageSrc={"/static/utah_2.jpg"}/>
+            <Features />    
+            <BigVideo videoSrc={"/static/airplane.mp4"}/>
+            <About />
+            <BigVideo videoSrc={"/static/mining.mp4"}/>
             <Founders />
-            <BigVideo videoSrc={"/static/Blue Sky Video_2.mp4"}/>
+            <BigVideo imageSrc={"/static/utah_1.jpg"}/>
             <Footer />
         </ParallaxProvider>);
 }

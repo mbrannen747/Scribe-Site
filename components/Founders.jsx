@@ -5,7 +5,7 @@ import Row from './Row'
 export default () => {
     return <Section>
         <style jsx>{`
-            #our-founders {
+            #founders {
                 position:relative;
                 display:block;
                 visibility:hidden;
@@ -20,7 +20,7 @@ export default () => {
                 }
             }
         `}</style>
-        <a id="our-founders"></a>
+        <a id="founders"></a>
         <h1>FOUNDERS</h1>
             <Row>
                 <Col first={true}>

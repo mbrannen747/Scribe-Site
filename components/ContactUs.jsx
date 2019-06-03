@@ -13,7 +13,7 @@ export default () => {
             }
             form {
                 ${styleConstants.fontNormal};
-                width:75%;
+                width:100%;
             }
             input[type=text] {
                 ${styleConstants.fontNormal};

@@ -23,6 +23,14 @@ export default class Col extends React.Component{
             @media (max-width:800px) {
                 .col {
                     padding:0 !important;
+                    ${this.props.shrinkTo2ColsMobile ? `flex:1 0 33%; margin:10px` : ``}
+                } 
+            }
+            @media (max-width:575px) {
+                .col {
+                    padding:0 !important;
+                    flex:1;
+                    margin:0;
                 } 
             }
         `}</style>

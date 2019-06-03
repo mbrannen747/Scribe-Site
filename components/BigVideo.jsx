@@ -1,9 +1,12 @@
 import * as styleConstants from  '../constants/StyleConstants';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-export default ({videoSrc,text}) => {
+export default ({videoSrc,imageSrc,text}) => {
     let textElement = text ? <Parallax y={[-200,200]} className="bigvid-overlay-text">
             <p>{text}</p>
-        </Parallax> : <div />
+        </Parallax> : <div />;
+    let media = videoSrc ? <video autoPlay={true} muted={true} loop={true} className="bigvid">
+            <source src={videoSrc} type="video/mp4" />
+        </video> : <img src={imageSrc} className="bigvid" />
     return <div className="bigvid-container">
         <Parallax y={[-40,40]} >
             <style global jsx>{`
@@ -44,9 +47,7 @@ export default ({videoSrc,text}) => {
                 }
             `}</style>
             {textElement}
-            <video autoPlay={true} muted={true} loop={true} className="bigvid">
-                <source src={videoSrc} type="video/mp4" />
-            </video>
+            {media}
         </Parallax>
     </div>
 }

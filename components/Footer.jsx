@@ -16,10 +16,10 @@ export default () => {
                 ${styleConstants.containerMargin}
             }
             .footer-logo {
-                height: 230px;
-                width: 230px;
+                max-height: 230px;
+                max-width: 230px;
                 display:block;
-                margin: 25px auto 0 auto;
+                margin: 52px auto 0 auto;
             }
             
         `}</style>
@@ -32,7 +32,7 @@ export default () => {
                 <ContactUs />
             </Col>
         </Row>
-        <p style={{textAlign:"center"}}>© 2018 Scribe Sciences. All Rights Reserved.</p>
+        <p style={{textAlign:"center"}}>© 2019 Scribe Sciences. All Rights Reserved.</p>
         </div>
     </div>
 }

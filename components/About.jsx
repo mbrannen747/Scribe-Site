@@ -23,12 +23,12 @@ export default () => {
             <Row>
                 <Col first={true}>
                     <p>
-                        The Scribe Datalogger is an easy to use, universal logger designed for scientific and industrial markets, offers real-time data displays, wireless connectivity, cloud data storage, 
-                        and big data applications
-                        Highly adaptable to meet any measurement need including scientific, industrial or military applications
-                        Measurement protocols include but not limited to: analog, pulse, bridge, SDI-12, and serial protocols
-                        Communications for data transfers and remote monitoring can be achieved through radio, internet, cellular or satellite
-                        Programmable via Python
+                        Scribe is a Salt Lake City based company started in 2017. The roots of the brand come from 
+                        atmospheric monitoring at the University of Utah. Upon realization that the datalogging 
+                        industry was sorely in need of innovation, the Scribe Logger was born. Scribe was awarded 
+                        the prestigious USTAR TAP grant to help accelerate the development of the product. Today 
+                        Scribe is currently working closely with several industry professionals to further develop 
+                        and commercialize a premium datalogging device and platform.
                     </p>
                 </Col>
                 <Col last={true}>
