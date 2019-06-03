@@ -12,7 +12,7 @@ export default ({videoSrc,imageSrc,text}) => {
             <style global jsx>{`
                 .bigvid-container {
                     width: 100%;
-                    height: 600px;
+                    height: 550px;
                     overflow: hidden;
                     margin-top:-100px;
                 }
