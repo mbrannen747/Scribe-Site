@@ -13,12 +13,17 @@ export default () => {
             <style global jsx>{`
                 html {
                     scroll-behavior: smooth;
+                    height:100%;
                 }
                 body {
                     margin: 0;
-                    background:#eee;
+                    background:#eee url('/static/utah_1.jpg');
+                    background-size:cover;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
                     font-family: 'Barlow', sans-serif;
                     font-weight:200;
+                    height:100%;
                 }
                 h1,h2 {
                     font-family: 'Barlow', sans-serif;
@@ -36,7 +41,7 @@ export default () => {
             <About />
             <BigVideo videoSrc={"/static/mining.mp4"}/>
             <Founders />
-            <BigVideo imageSrc={"/static/utah_1.jpg"}/>
+            <BigVideo imageSrc={""}/>
             <Footer />
         </ParallaxProvider>);
 }
