@@ -12,7 +12,7 @@ export default ({videoSrc,imageSrc,text}) => {
                     image: imageSrc,
                     amount: 0.5,
                     style: {backgroundSize:"contain"},
-                    children: (<video autoPlay loop><source src={videoSrc} /></video>)
+                    children: (<video autoPlay loop muted><source src={videoSrc} /></video>)
                 }
             ]}
             style={{
