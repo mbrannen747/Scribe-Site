@@ -7,9 +7,8 @@ export default class Section extends React.Component{
             .section-container{
                 background:${styleConstants.colors.colorWhite};
                 width:100%;
-                z-index:10;
-                position: relative;
-                transform:translateY(-70px);
+                // z-index:10;
+                // position: relative;
                 ${styleConstants.containerPadding}
                 ${styleConstants.shadow}
             }

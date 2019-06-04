@@ -1,7 +1,7 @@
 import Head from '../components/Head';
 import Navbar from '../components/Navbar';
 import BigVideo from '../components/BigVideo';
-import { ParallaxProvider } from 'react-scroll-parallax';
+import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
 import About from '../components/About';
 import Founders from '../components/Founders';
 import Product from '../components/Product';
@@ -17,14 +17,10 @@ export default () => {
                 }
                 body {
                     margin: 0;
-                    background:#eee url('/static/utah_1.jpg');
-                    background-size:cover;
-                    background-repeat: no-repeat;
-                    background-attachment: fixed;
+                    background:#eee ;
                     font-family: 'Barlow', sans-serif;
                     font-weight:200;
                     height:100%;
-                    overflow:hidden;
                 }
                 h1,h2 {
                     font-family: 'Barlow', sans-serif;
@@ -32,9 +28,7 @@ export default () => {
              `}</style>
             <Head/>
             <Navbar />
-            <div style={{marginTop:"126.6px"}}>
                 <BigVideo videoSrc={"/static/Blue Sky Video_1.mp4"} text="Effortless, Wireless, Realtime Datalogging" />
-            </div>
             <Product />    
             <BigVideo imageSrc={"/static/utah_2.jpg"}/>
             <Features />    
@@ -42,9 +36,9 @@ export default () => {
             <About />
             <BigVideo imageSrc={"/static/balloons.jpg"}/>
             <Founders />
-            <BigVideo imageSrc={""}/>
+            <BigVideo imageSrc={"/static/utah_1.jpg"}/>
             <Footer />
-            <script
+            {/* <script
                 dangerouslySetInnerHTML={{ __html:
                     `
                     window.onload = (event) => {
@@ -55,6 +49,6 @@ export default () => {
                     };
                     `
                 }}
-            />
+            /> */}
         </ParallaxProvider>);
 }
